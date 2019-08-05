@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   data-name="Layer 1"
+   version="1.1"
+   sodipodi:docname="dental-love.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="738"
+     inkscape:window-height="480"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <path
+     d="m385.426 89.126c-10.4 0-21.942 4.39-33.388 12.7a6 6 0 0 1 -7.111-.046c-11.447-8.539-23.04-13.053-33.525-13.053-18.214 0-31.944 12.735-35.831 33.235-6.136 31.975 14.045 74.689 72.941 98.138 42.473-17.288 81.443-54.278 72.955-98.09-4.099-20.287-17.907-32.884-36.041-32.884z"
+     id="path2"
+     style="fill:#43515f;fill-opacity:1" />
+  <path
+     d="m71.891 254.617c25.009 13.239 37.231 20.869 43.551 31.078 6.538 10.563 5.561 22.185 3.942 41.439-.251 2.986-.521 6.186-.784 9.627-5.625 73.565 13.815 121.934 33.883 142.669a11.33 11.33 0 0 0 3.477 1.629 8.288 8.288 0 0 0 11.2-9.357c-.031-.161-.055-.324-.072-.488a359.85 359.85 0 0 1 .112-62.514c4.053-46.658 16.309-82.733 36.427-107.222a28.821 28.821 0 0 1 44.451.242c19.728 24.616 31.731 60.685 35.674 107.208a363.581 363.581 0 0 1 .06 62.286c-.017.165-.041.33-.072.493a8.6 8.6 0 0 0 .55 5.04 8.51 8.51 0 0 0 10.652 4.315 11.1 11.1 0 0 0 3.492-1.642c20.053-20.722 39.493-69.09 33.868-142.655-.234-3.048-.469-5.91-.691-8.6-1.424-17.3-2.365-28.755 1.942-38.544-67.974-7.475-121.034-65.24-121.034-135.173a136.548 136.548 0 0 1 1.584-20.771c-1.706-.974-3.525-2.023-5.513-3.171-18.342-10.592-46.06-26.6-68.237-29.539-67.93-9.02-89.814 35.56-96.073 55.143a104.823 104.823 0 0 0 -1.264 58.322c5.195 18.806 15.45 33.078 28.875 40.185z"
+     id="path4"
+     style="fill:#43515f;fill-opacity:1" />
+  <path
+     d="m348.518 30.442a124 124 0 1 0 124 124 124.14 124.14 0 0 0 -124-124zm4.255 200.876c-.115.047-.233.091-.351.13a11.1 11.1 0 0 1 -7.817 0c-.1-.035-.207-.073-.31-.113-65.43-25.961-87.583-74.77-80.512-111.625 4.951-26.11 23.644-42.986 47.617-42.986 12.137 0 24.622 4.339 37.163 12.908 12.385-8.2 25.055-12.506 36.861-12.506 23.83 0 42.6 16.693 47.808 42.528l.009.043c7.081 36.465-15.056 85.12-80.468 111.621z"
+     id="path6"
+     style="fill:#43515f;fill-opacity:1" />
+</svg>

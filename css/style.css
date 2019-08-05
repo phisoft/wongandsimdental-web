@@ -1,0 +1,148 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a:hover {
+  color: #49c4a3;
+  text-decoration: none;
+}
+
+.main-container {
+  height: auto;
+}
+
+.nav-container {
+  position: fixed;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #43515F;
+  top: 0px;
+  color: white;
+  height: 100%;
+  width: 320px;
+}
+
+.nav-logo {
+  margin-top: 20px;
+}
+
+.nav {
+  margin-top: 100px;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-appointment {
+  margin: 20px;
+  margin-top: 80px;
+  background-color: #6286C4;
+  display: block;
+  color: white;
+  padding: 0.8em;
+  border-radius: 0.2em;
+  text-transform: uppercase;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+.opening-hours {
+  margin-top: 80px;
+}
+
+.content-container {
+  width: 100%;
+  margin-left: 320px;
+  background-color: #c3c2c0; 
+}
+
+.ws-banner {
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../images/frontws.jpg');
+  padding-top: 100px;
+}
+
+.ws-banner-info {
+  color: #43515f;
+  text-align: left;
+  margin: 100px;
+  margin-top: 200px;
+  width: 600px;
+  background-color: #c3c2c0;
+  padding: 20px;
+  border-radius: 0.5em;
+  opacity: 0.9;
+  display: none;
+}
+
+.ws-banner-info-title {
+  font-size: 34pt;
+  margin-bottom: 20px;
+}
+
+.ws-banner-info-desc {
+  font-size: 14pt;
+}
+
+.ws-about {
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.ws-about-info {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+
+.ws-services {
+  padding: 20px;
+  position: relative;
+  background-color: white;
+  padding-bottom: 150px;
+}
+
+.ws-services-title {
+  font-size: 28pt;
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.ws-services .row {
+  margin-top: 30px;
+}
+
+.ws-service-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.ws-branch {
+  border-top: 1px solid silver;
+  padding: 20px;
+}
+
+.ws-branch-title {
+  font-size: 13pt;
+}
+
+.ws-branch-title2 {
+  font-size: 18pt;
+}
+
+.ws-branch2 {
+  background-color: #c3c2c0;
+}
