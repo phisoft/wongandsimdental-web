@@ -46,7 +46,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #72a172;
+  background: #fff8df;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +69,7 @@ p {
 
 #section-a .box {
   padding-bottom: 2em;
-  color: #ffffff;
+  color: #ffd8ff;
 }
 
 #section-a .box:first-child {
@@ -89,7 +89,7 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #ffffff;
+  background: #bbebb7;
   color: #333333;
 }
 
@@ -99,7 +99,7 @@ p {
 
 /* Section C */
 #section-c {
-  background: #7d7d7d;
+  background: #cff4ee;
   color: #333333;
   padding-bottom: 2em;
 }
