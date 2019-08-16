@@ -1,86 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Wong and Sim Dental</title>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+}
+  .bg-5 { 
+    background-color: #ffffff; /* Black Gray */
+    color: rgb(28, 167, 192);
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
 </head>
-</html>
-    <!--Header SHowcase-->
-    <header id="showcase" class="grid">
-        <div class="bg-image"></div>
-        <h1>Get To Know Us</h1>
-        <p>We believe in a more personal approach to denstistry, an approach that is focussed on service and expertise and puts the patient first.
-            Our philosophy takes us back to the basic of human relation, striving for excellence in quality of care, overcoming communication barriers,
-            and attempting to view your needs and expectations through your eyes, not our own</p>
-    </header>
+<body>
 
-    <!--Main Area-->
-    <main id="main">
-        <!--Section A-->
-        <section id="section-a" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">Teeth Whitening</h2>
-                <p>We can make your dreams of a brighter smile a reality. It is simple treatment with immediate results, and can boost your self-confidence.</p>
-            </div>
-            <div class="content-wrap">
-                <h2 class="content-title">Dental Implants</h2>
-                <p>A dental implant is a fixed solution for one or more missing teeth, and can help restore both your smile and your quality of life.</p>
-            </div>
-        </section>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Wong & Sim Dental</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#">1.0 Home</a></li>
+        <li><a href="#">2.0 Clinic</a></li>
+        <li><a href="#">3.0 Our Team</a></li>
+        <li><a href="#">4.0 Treatments</a></li>
+        <li><a href="#">5.0 Locations</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <main id="main">
-        <!--Section B-->
-        <section id="section-b" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">OUR PURPOSE IS OUR PATIENTS</h2>
-                <P>WE BELIEVE THE BEST WAY FOR YOU TO ENJOY A HEALTH SMILE IS TOWORK WITH A TEAM OF PROFFESSIONALS WHO ARE DEDICARED TO ENSURING THAT YOU ARE CARE OF. (GET TO KNOW</P>
-            </div>
-        </section>
-    
-    </main>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">1.0 Home</h3>
+  <h3 class="margin">Get To Know Us</h3>
+  <p>We believe in a more personal approach to dentistry, an approach that is focussed on service and expertise and puts the patient first. 
+      Our philosophy takes us back to the basics of human relations: striving for excellence in quality of care; overcoming communication barriers, 
+      and attempting to view your needs and expectations through your eyes, not our own.</p>
+  <img src="" class="" style="display:inline" width="50" height="50">
+</div>
 
-    <main id="main">
-        <!--Section C-->
-        <section id="section-c" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">Teeth Straightening</h2>
-                <p>How your teeth can affect your self confidence. Making the decision to straighten your teeth can be exciting and a little daunting, we offer a range of orthodontic options.</p>
-            </div>
-        </section>
-        
-    </main>
+<!-- Second Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Teeth Whitening</h3>
+            <p>We can make your dreams of a brighter smile a reality. It is simple treatment with immediate results, and can boost your self-confidence.</p>
+            <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
 
-    <main id="main">
-        <!--Section D-->
-        <section id="section-d" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">General denstistry</h2>
-                <p>General dentistry is the foundation of what we do. Whether you’d like a routine check up or need an emergency appointment, we can help.</p>
-            </div>
-        </section>
-            
-    </main>
+          <div class="col-sm-6"> 
+              <h3 class="padding-top">Dental Implants</h3>
+            <p>A dental implant is a fixed solution for one or more missing teeth, and can help restore both your smile and your quality of life.</p>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
 
-    <main id="main">
-        <!--Section E-->
-        <section id="section-e" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">GET IN TOUCH</h2>
-                <p>SMILE, WE'RE HERE TO HELP 
+<!-- Third Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">OUR PURPOSE IS OUR PATIENTS</h3>
+  <p>WE BELIEVE THE BEST WAY FOR YOU TO ENJOY A HEALTH SMILE IS TO WORK WITH A TEAM OF PROFESSIONALS WHO ARE DEDICARED TO ENSURING THAT YOU ARE CARE OF
 
-                    (details both clinics operational hours, phone number)
-                </p>
-            </div>
-        </section>
-            
-    </main>
+        (GET TO KNOW US) </p>
+</div>
 
-    <!--Header SHowcase-->
-    <header id="showcase" class="grid">
-        <div class="bg-image"></div>
-        <h1>OUR PROMISE ON STANDARDS</h1>
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Teeth Straightening</h3>
+            <p>How your teeth look can affect your self confidence. Making the decision to straighten your teeth can be exciting and a little daunting, we offer a range of orthodontic options.</p>
+            <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+
+          <div class="col-sm-6"> 
+              <h3 class="padding-top">General Dentistry</h3>
+            <p>General dentistry is the foundation of what we do. Whether you’d like a routine check up or need an emergency appointment, we can help.</p>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
+
+<!-- Fifth Container -->
+<div class="container-fluid bg-1 text-center">
+        <h3 class="margin">GET IN TOUCH</h3>
+        <p>SMILE. WE’RE HERE TO HELP
+
+                (details both clinics operational hours, phone numbers)</p>
+        <class="" style="display:inline" width="50" height="50">
+      </div>
+      
+<!-- Sixth Container -->
+<div class="container-fluid bg-1 text-center">
+        <h3 class="padding-bottom">2.0 Clinic</h3>
+        <h3 class="margin">OUR PROMISE ON STANDARDS</h3>
         <p>We put you at the heart of everything we do. When it comes to your health and your smile, it’s always personal. We understand the need to feel at ease, to communicate and to understand.</p>
-    </header>
+        <class="" style="display:inline" width="50" height="50">
+      </div>
+
+<!-- Seventh Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Digital X-ray</h3>
+            <p>Digital X-rays are computer-generated images that we use to see your teeth and surrounding structures. Unlike traditional X-rays, Digital X-rays are quicker, more convenient and emit a lesser percentage of radiation</p>
+          </div>
+
+          <div class="col-sm-6"> 
+              <h3 class="padding-top"></h3>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
+
+<!-- Eight Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+                <div class="col-sm-6">
+                  <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+      
+                <div class="col-sm-6"> 
+                    <h3 class="padding-top">Health & Safety</h3>
+                  <p>Our practices are kitted out with all the most advanced sterilisation equipment, to ensure you are safe at all times.</p>
+                  <class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+              </div>
+            </div>
+
+<!-- Nineth Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Philips Zoom Whitespeed</h3>
+            <p>WhiteSpeed’s LED technology significantly speeds up the bleaching process, delivering predictable results that you’ll get in just one visit.</p>
+          </div>
+
+          <div class="col-sm-6"> 
+              <h3 class="padding-top"></h3>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
+
+<!-- Tenth Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+                <div class="col-sm-6">
+                  <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+      
+                <div class="col-sm-6"> 
+                    <h3 class="padding-top">Magnification Dentistry</h3>
+                  <p>Our dentists use high magnification loupes as routine and microscopes as required. This ensures we can see the finest details and scrutinise our results to the highest degree.</p>
+                  <class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+              </div>
+            </div>
+
+<!-- Eleventh Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Laser Dentistry</h3>
+            <p>We carry out many procedures using state of the art dental lasers which mean that more invasive surgery is avoided.</p>
+          </div>
+
+          <div class="col-sm-6"> 
+              <h3 class="padding-top"></h3>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
+
+<!-- Twelve Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+                <div class="col-sm-6">
+                  <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+      
+                <div class="col-sm-6"> 
+                    <h3 class="padding-top">EMS Air-Flows</h3>
+                  <p>Modern, minimally invasive prophylaxis and guided biofilm therapy ensures efficient biofilm removal. This ensures your teeth cleaning much faster, efficiently and comfortably.</p>
+                  <class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+              </div>
+            </div>
+
+<!-- Thirteen Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-6">
+              <h3 class="padding-top">Plasma PRP</h3>
+            <p>PRP therapy is a simple and predictable technology that uses the body's own regenerative potential to improve and accelerate natural recovery for patients </p>
+          </div>
+
+          <div class="col-sm-6"> 
+              <h3 class="padding-top"></h3>
+            <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
