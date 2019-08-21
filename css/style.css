@@ -1,123 +1,58 @@
-/*  Core Styles */
-
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #333333;
-  color: #ffffff;
-  font-size: 1em;
-  line-height: 1.5;
-  text-align: center;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-h1, h2, h3 {
-  margin: 0;
-  padding: 1em 0;
+  font: 20px Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+  background: #474e5d;
+  color: #f5f6f7;
 }
 
 p {
-  margin: 0;
-  padding: 1em 0;
+  font-size: 16px;
 }
 
-.btn {
-  display: inline-block;
-  background: #333333;
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
   color: #ffffff;
-  text-decoration: none;
-  padding: 1em 2em;
-  border: 1px solid #666666;
-  margin: .5em 0;
 }
 
-/* Header Showcase */
-
-#showcase {
-  min-height: 450px;
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
   color: #ffffff;
-  text-align: center;
 }
 
-#showcase .bg-image {
-  position: absolute;
-  background: #fff8df;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 450px;
-  z-index: -1;
-  opacity: 0.4;
+.bg-3 { 
+  background-color: #ffffff; /* White */
+  color: #555555;
 }
 
-#showcase h1 {
-  padding-top: 100px;
-  padding-bottom: 0;
+.bg-4 { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
 }
 
-#showcase .content-wrap {
-  padding: 0 1.5em;
+.bg-5 { 
+  background-color: #ffffff; /* Black Gray */
+  color: rgb(28, 167, 192);
 }
 
-/* Section A / Boxes */
-
-#section-a .box {
-  padding-bottom: 2em;
-  color: #ffd8ff;
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-#section-a .box:first-child {
-  background: #226699;
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
-/* Section B */
-#section-b {
-  padding: 2em 1em 1em;
-}
-
-#section-b ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#section-b li {
-  margin-bottom: 1em;
-  background: #bbebb7;
-  color: #333333;
-}
-
-.card-content {
-  padding: 1.5em;
-}
-
-/* Section C */
-#section-c {
-  background: #cff4ee;
-  color: #333333;
-  padding-bottom: 2em;
-}
-
-#section-d {
-  background: #d49d87;
-  color: #333333;
-  padding-bottom: 2em;
-}
-
-#section-e {
-  background: #eaeaea;
-  color: #333333;
-  padding-bottom: 2em;
-}
-
-#section-f {
-  background: #eaeaea;
-  color: #333333;
-  padding-bottom: 2em;
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
 }
