@@ -14,23 +14,33 @@ body {
   padding-right: 0px;
   min-height: 100vh;
   position: fixed;
-  width: 250px;
+  width: 280px;
   border-right: 1px solid silver;
   text-align: center;
 }
 
-@media screen and (max-width: 760px) {
-  #side-nav {
-    visibility: hidden;
-  }
-}
-
 #content-container {
-  margin-left: 250px;
+  margin-left: 280px;
   padding: 0.5em;
   width: 100vw;
   min-height: 100vh;
   background-color: #f2f3f3;
+}
+
+@media screen and (max-width: 40.0rem) {
+  #side-nav {
+    display: none;
+  }
+
+  #content-container {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 40.0rem) {
+  .navbar {
+    display: none;
+  }
 }
 
 #side-nav ul {
@@ -51,10 +61,16 @@ body {
   color: #333;
 }
 
+.ws-side-info {
+  margin-top: 100px;
+  font-size: smaller;
+}
+
 .ws-banner {
   height: 450px;
   background-image: url('../images/frontws.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .ws-line {
@@ -65,8 +81,9 @@ body {
 
 .ws-promise {
   text-align: center;
-  padding: 100px;
-  width: 800px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -78,8 +95,9 @@ body {
 
 .ws-team {
   text-align: center;
-  padding: 100px;
-  width: 800px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -104,9 +122,10 @@ body {
 }
 
 .ws-treatment {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
-  width: 900px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -120,7 +139,7 @@ body {
 .ws-contact {
   padding: 100px;
   text-align: center;
-  width: 900px;
+  max-width: 900px;
   margin: auto;
 }
 
