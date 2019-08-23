@@ -65,6 +65,12 @@ body {
   font-size: smaller;
 }
 
+.ws-side-info i {
+  color: #186b63;
+  font-size: 16pt;
+  margin: 0.5em;
+}
+
 .ws-banner {
   height: 450px;
   background-image: url('../images/frontws.jpg');
@@ -157,5 +163,5 @@ body {
 }
 
 .ws-contact-grid i {
-  color: #40e0d0;
+  color: #186b63;
 }
