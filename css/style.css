@@ -57,7 +57,6 @@ body {
 
 #side-nav li a {
   text-transform: uppercase;
-  font-size: smaller;
   color: #333;
 }
 
@@ -149,4 +148,14 @@ body {
   min-height: 280px;
   font-size: smaller;
   border-right: 1px solid #f2f2f3;
+}
+
+.ws-contact-grid {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin-top: 30px;
+}
+
+.ws-contact-grid i {
+  color: #40e0d0;
 }
