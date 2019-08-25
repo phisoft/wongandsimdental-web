@@ -209,10 +209,12 @@ body {
 }
 
 .ws-bg2 {
+  color: white;
   background-color: #7fa9b3;
 }
 
 .ws-bg3 {
+  color: white;
   background-color: #717f8b;
 }
 
@@ -221,5 +223,6 @@ body {
 }
 
 .ws-bg5 {
+  color: white;
   background-color: #af9d67;
 }
