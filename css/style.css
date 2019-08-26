@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  line-height: 2.9;
+  line-height: 1.5;
 }
 
 #main-container {
@@ -57,13 +57,18 @@ body {
 
 #side-nav li a {
   text-transform: uppercase;
-  font-size: smaller;
   color: #333;
 }
 
 .ws-side-info {
   margin-top: 100px;
   font-size: smaller;
+}
+
+.ws-side-info i {
+  color: #186b63;
+  font-size: 16pt;
+  margin: 0.5em;
 }
 
 .ws-banner {
@@ -77,6 +82,36 @@ body {
   border: 1px solid #f2f2f3;
   padding: 3em;
   background-color: white;
+}
+
+.ws-purpose {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.ws-purpose-item {
+  padding: 3em;
+  background-color: white;
+  min-height: 280px;
+}
+
+.ws-button {
+  display: block;
+  padding: 0.5em;
+  background-color: #208d83;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 0.5em;
+}
+
+.ws-button:hover {
+  text-decoration: none;
 }
 
 .ws-promise {
@@ -137,10 +172,17 @@ body {
 }
 
 .ws-contact {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   max-width: 900px;
   margin: auto;
+}
+
+.ws-contact i {
+  font-size: 16pt;
+  margin: 0.5em;
+  color: #186b63;
 }
 
 .ws-contact-item {
@@ -149,4 +191,38 @@ body {
   min-height: 280px;
   font-size: smaller;
   border-right: 1px solid #f2f2f3;
+}
+
+.ws-contact-grid {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin-top: 30px;
+}
+
+.ws-contact-grid i {
+  color: #186b63;
+  font-size: 16pt;
+}
+
+.ws-bg1 {
+  background-color: #f2f2f3;
+}
+
+.ws-bg2 {
+  color: white;
+  background-color: #7fa9b3;
+}
+
+.ws-bg3 {
+  color: white;
+  background-color: #717f8b;
+}
+
+.ws-bg4 {
+  background-color: #E5E5f7;
+}
+
+.ws-bg5 {
+  color: white;
+  background-color: #af9d67;
 }
