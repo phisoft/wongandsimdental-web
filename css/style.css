@@ -71,13 +71,6 @@ body {
   margin: 0.5em;
 }
 
-.ws-banner {
-  height: 450px;
-  background-image: url('../images/frontws.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 .ws-line {
   border: 1px solid #f2f2f3;
   padding: 3em;
@@ -123,7 +116,7 @@ body {
 }
 
 .ws-promise-item {
-  padding: 3em;
+  padding: 5em;
   background-color: white;
   min-height: 280px;
 }
@@ -203,7 +196,6 @@ body {
   color: #186b63;
   font-size: 16pt;
 }
-<<<<<<< HEAD
 
 .ws-bg1 {
   background-color: #f2f2f3;
@@ -227,5 +219,189 @@ body {
   color: white;
   background-color: #af9d67;
 }
-=======
->>>>>>> b8de5ac04a7514ac8f3c54a5ea335e0b48250ffb
+
+.ws-bg6 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/9199.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg7 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/21808.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg8 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/586014-PM8TT6-428.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: auto;
+  min-height: auto;
+}
+
+.ws-bg9 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2597366.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg10 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2680918.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg11 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/mason-wilkes-TMgQMXoglsM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg12 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/323016-P98GKF-998.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg13 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2777546.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg14 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/gift-habeshaw-_kY9Q2hB5oY-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg15 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/kazuend-ejlRp5ktpfY-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg16 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/ben-den-engelsen--WMVTExj-wI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg17 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/edward-cisneros-_H6wpor9mjs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg18 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/luis-machado-nCGl8FrGHb0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg19 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/luis-machado-RDoPoWkOsOw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.ws-bg20 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: auto;
+  min-height: auto;
+}
+
+.general-dentistry {
+  width: 100%;
+  height: 100%
+}
+
