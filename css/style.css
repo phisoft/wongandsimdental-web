@@ -220,6 +220,8 @@ body {
   background-color: #af9d67;
 }
 
+/* Treatment Cover Image */
+
 .ws-bg6 {
   color: white;
   width: 500px;
@@ -228,8 +230,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg7 {
@@ -240,8 +240,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg8 {
@@ -252,8 +250,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: auto;
-  min-height: auto;
 }
 
 .ws-bg9 {
@@ -264,8 +260,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg10 {
@@ -276,8 +270,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg11 {
@@ -288,8 +280,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg12 {
@@ -300,8 +290,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg13 {
@@ -312,8 +300,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg14 {
@@ -324,8 +310,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg15 {
@@ -336,8 +320,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg16 {
@@ -348,8 +330,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg17 {
@@ -360,8 +340,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg18 {
@@ -372,8 +350,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg19 {
@@ -384,8 +360,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
 }
 
 .ws-bg20 {
@@ -396,8 +370,98 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: auto;
-  min-height: auto;
+}
+
+/* Clinic Background Image */
+
+.ws-bg21 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg22 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg23 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg24 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg25 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg26 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg27 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg28 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg29 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/2646440.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .general-dentistry {
