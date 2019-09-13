@@ -71,13 +71,6 @@ body {
   margin: 0.5em;
 }
 
-.ws-banner {
-  height: 450px;
-  background-image: url('../images/frontws.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 .ws-line {
   border: 1px solid #f2f2f3;
   padding: 3em;
@@ -123,7 +116,7 @@ body {
 }
 
 .ws-promise-item {
-  padding: 3em;
+  padding: 5em;
   background-color: white;
   min-height: 280px;
 }
@@ -204,6 +197,10 @@ body {
   font-size: 16pt;
 }
 
+.carousel-caption {
+  font-size: 24pt;
+}
+
 .ws-bg1 {
   background-color: #f2f2f3;
 }
@@ -226,3 +223,253 @@ body {
   color: white;
   background-color: #af9d67;
 }
+
+/* Treatment Cover Image */
+
+.ws-bg6 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/43740177_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg7 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/14428502_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg8 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/46043757_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg9 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/103231349_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg10 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/121596422_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg11 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/toothset.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg12 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/104069653_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg13 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/implant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg14 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/110025263_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg15 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/43740220_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg16 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/21286129_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg17 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/toothset.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg18 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/81264239_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg19 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/128439818_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg20 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/39917949_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Clinic Background Image */
+
+.ws-bg21 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/43296407_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg22 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/39917949_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg23 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/46043757_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg24 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/40129756_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg25 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/14428502_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg26 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/106975304_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg27 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/56463681_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg28 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/21286129_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg29 {
+  color: white;
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/wong&sim/110025263_s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.general-dentistry {
+  width: 100%;
+  height: 100%;
+}
+
