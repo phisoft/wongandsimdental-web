@@ -473,3 +473,32 @@ body {
   height: 100%;
 }
 
+.carousel-bg1 {
+  min-height: 450px;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/106975304_s.jpg);
+  background-size: cover;
+}
+
+.carousel-bg2 {
+  min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/43740220_s.jpg);
+}
+
+.carousel-bg3 {
+  min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-position: center 55%;
+}
+
+.carousel-bg4 {
+  min-height: 450px;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/46251063_s.jpg);
+  background-position: center 35%;
+  background-size: cover;
+}
