@@ -471,7 +471,6 @@ body {
 .general-dentistry {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
 }
 
 .carousel-bg1 {
@@ -492,26 +491,6 @@ body {
 
 .carousel-bg3 {
   min-height: 500px;
-=======
-}
-
-.carousel-bg1 {
-  min-height: 450px;
-  background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/106975304_s.jpg);
-  background-size: cover;
-}
-
-.carousel-bg2 {
-  min-height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/43740220_s.jpg);
-}
-
-.carousel-bg3 {
-  min-height: 450px;
->>>>>>> 753106cb3fc8c69bcbdd078de2a9fa973891c146
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../images/wong&sim/116215139_s.jpg);
@@ -519,11 +498,7 @@ body {
 }
 
 .carousel-bg4 {
-<<<<<<< HEAD
   min-height: 500px;
-=======
-  min-height: 450px;
->>>>>>> 753106cb3fc8c69bcbdd078de2a9fa973891c146
   background-repeat: no-repeat;
   background-image: url(../images/wong&sim/46251063_s.jpg);
   background-position: center 35%;
