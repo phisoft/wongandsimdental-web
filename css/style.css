@@ -197,6 +197,10 @@ body {
   font-size: 16pt;
 }
 
+.carousel-caption {
+  font-size: 24pt;
+}
+
 .ws-bg1 {
   background-color: #f2f2f3;
 }
@@ -236,7 +240,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/121596422_s.jpg);
+  background-image: url(../images/wong&sim/14428502_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,7 +250,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/103231349_s.jpg);
+  background-image: url(../images/wong&sim/46043757_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -256,7 +260,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/808.jpg);
+  background-image: url(../images/wong&sim/103231349_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -266,7 +270,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/2680918.jpg);
+  background-image: url(../images/wong&sim/121596422_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -276,7 +280,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/mason-wilkes-TMgQMXoglsM-unsplash.jpg);
+  background-image: url(../images/wong&sim/toothset.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -286,7 +290,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/10511.jpg);
+  background-image: url(../images/wong&sim/104069653_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -296,7 +300,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/2777546.jpg);
+  background-image: url(../images/wong&sim/implant.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -306,7 +310,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/gift-habeshaw-_kY9Q2hB5oY-unsplash.jpg);
+  background-image: url(../images/wong&sim/110025263_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -316,7 +320,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/kazuend-ejlRp5ktpfY-unsplash.jpg);
+  background-image: url(../images/wong&sim/43740220_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -326,7 +330,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/4769.jpg);
+  background-image: url(../images/wong&sim/21286129_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -336,7 +340,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-image: url(../images/wong&sim/toothset.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -346,7 +350,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/luis-machado-nCGl8FrGHb0-unsplash.jpg);
+  background-image: url(../images/wong&sim/81264239_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -356,7 +360,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/4412.jpg);
+  background-image: url(../images/wong&sim/128439818_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -366,7 +370,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/101144164_s.jpg);
+  background-image: url(../images/wong&sim/39917949_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -448,7 +452,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/laserdentistry.jpg);
+  background-image: url(../images/wong&sim/21286129_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -458,7 +462,7 @@ body {
   color: white;
   width: 500px;
   height: 500px;
-  background-image: url(../images/wong&sim/21286129_s.jpg);
+  background-image: url(../images/wong&sim/110025263_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -466,6 +470,37 @@ body {
 
 .general-dentistry {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
+.carousel-bg1 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/106975304_s.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-bg2 {
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/43740220_s.jpg);
+  background-position: center 60%;
+}
+
+.carousel-bg3 {
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-position: center 55%;
+}
+
+.carousel-bg4 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/wong&sim/46251063_s.jpg);
+  background-position: center 35%;
+  background-size: cover;
+}
