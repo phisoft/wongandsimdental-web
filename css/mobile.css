@@ -1,0 +1,13 @@
+@media screen and (max-width: 40.0rem) {
+  #side-nav {
+    display: none;
+  }
+
+  #content-container {
+    margin-left: 0px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}

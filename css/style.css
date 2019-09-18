@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -25,22 +27,6 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: #f2f3f3;
-}
-
-@media screen and (max-width: 40.0rem) {
-  #side-nav {
-    display: none;
-  }
-
-  #content-container {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (min-width: 40.0rem) {
-  .navbar {
-    display: none;
-  }
 }
 
 #side-nav ul {
