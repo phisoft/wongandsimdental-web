@@ -210,6 +210,16 @@ body {
   background-color: #af9d67;
 }
 
+/*Clinic Background*/
+.ws-bg40 {
+  color: white;
+  background-color: #7fa9b3; 
+}
+
+.ws-bg41 {
+  background-color: #E5E5f7;  
+}
+
 /* Treatment Cover Image */
 
 .ws-bg6 {

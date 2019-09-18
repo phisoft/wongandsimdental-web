@@ -10,6 +10,7 @@
     background-position: center 50%; 
   }
 
+  /*Treatment Images*/
   .ws-bg6 {
     height: 350px;
     background-position: center 100%;
@@ -35,6 +36,7 @@
     background-position: center 100%;
   }
 
+  /*Treatment Word*/
   .ws-bg30 {
     height: 350px;
     color: white;
@@ -107,6 +109,52 @@
     padding-top: 10%;
   }
 
+  /*Clinic Images*/
+  .ws-bg21 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg22 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg23 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg24 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg25 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg26 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg27 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg28 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg29 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+  
   #side-nav {
     display: none;
   }
