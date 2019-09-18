@@ -8,6 +8,7 @@
   }
 
   .navbar {
-    display: none;
+    display: block;
+    background-color: blue;
   }
 }
