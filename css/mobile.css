@@ -8,7 +8,40 @@
   }
 
   .navbar {
+    border-radius-top: 0.2em;
+    background-color: #12beba !important;
     display: block;
-    background-color: blue;
+    padding: 0px;
+  }
+
+  .navbar-header {
+    background-color: white;
+    margin: 0px;
+    padding: 0.5em;
+  }
+
+  .nav-item {
+    padding-left: 1em;
+  },
+
+  .navbar-brand {
+    padding: 0.5em;
+  }
+
+  .navbar-brand img {
+    margin-left: 20px;
+  }
+
+  .navbar-toggler {
+    float: right;
+    margin: 0.6em;
+  }
+
+  a.navbar-brand {
+    color: white;
+  }
+
+  a.nav-link {
+    color: white !important;
   }
 }
