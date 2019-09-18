@@ -27,22 +27,6 @@ body {
   background-color: #f2f3f3;
 }
 
-@media screen and (max-width: 40.0rem) {
-  #side-nav {
-    display: none;
-  }
-
-  #content-container {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (min-width: 40.0rem) {
-  .navbar {
-    display: none;
-  }
-}
-
 #side-nav ul {
   list-style-type: none;
   padding: 0;
@@ -58,6 +42,10 @@ body {
 #side-nav li a {
   text-transform: uppercase;
   color: #333;
+}
+
+.navbar {
+  display: none;
 }
 
 .ws-side-info {
@@ -160,7 +148,7 @@ body {
 .ws-treatment-item {
   padding: 3em;
   background-color: white;
-  min-height: 280px;
+  min-height: 400px;
   font-size: smaller;
 }
 
@@ -228,7 +216,6 @@ body {
 
 .ws-bg6 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/43740177_s.jpg);
   background-size: cover;
@@ -238,8 +225,7 @@ body {
 
 .ws-bg7 {
   color: white;
-  width: 500px;
-  height: 500px;
+  height: 500px;  
   background-image: url(../images/wong&sim/14428502_s.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,7 +234,6 @@ body {
 
 .ws-bg8 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/46043757_s.jpg);
   background-size: cover;
@@ -258,7 +243,6 @@ body {
 
 .ws-bg9 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/implant.jpg);
   background-size: cover;
@@ -268,7 +252,6 @@ body {
 
 .ws-bg10 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/21286129_s.jpg);
   background-size: cover;
@@ -280,7 +263,6 @@ body {
 
 .ws-bg21 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/43296407_s.jpg);
   background-size: cover;
@@ -290,7 +272,6 @@ body {
 
 .ws-bg22 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/39917949_s.jpg);
   background-size: cover;
@@ -300,7 +281,6 @@ body {
 
 .ws-bg23 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/46043757_s.jpg);
   background-size: cover;
@@ -310,7 +290,6 @@ body {
 
 .ws-bg24 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/40129756_s.jpg);
   background-size: cover;
@@ -320,7 +299,6 @@ body {
 
 .ws-bg25 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/14428502_s.jpg);
   background-size: cover;
@@ -330,7 +308,6 @@ body {
 
 .ws-bg26 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/106975304_s.jpg);
   background-size: cover;
@@ -340,7 +317,6 @@ body {
 
 .ws-bg27 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/56463681_s.jpg);
   background-size: cover;
@@ -350,7 +326,6 @@ body {
 
 .ws-bg28 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/21286129_s.jpg);
   background-size: cover;
@@ -360,7 +335,6 @@ body {
 
 .ws-bg29 {
   color: white;
-  width: 500px;
   height: 500px;
   background-image: url(../images/wong&sim/110025263_s.jpg);
   background-size: cover;
@@ -405,3 +379,4 @@ body {
   background-size: cover;
 }
 
+@import url("mobile.css");
