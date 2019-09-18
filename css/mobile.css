@@ -1,4 +1,22 @@
 @media screen and (max-width: 40.0rem) {
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+
+  .ws-bg2 {
+    background-color: turquoise;
+  }
+
+  .ws-bg3 {
+    background-color:rgb(215, 235, 146); 
+  }
+
   #side-nav {
     display: none;
   }
@@ -45,3 +63,4 @@
     color: white !important;
   }
 }
+
