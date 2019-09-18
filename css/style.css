@@ -50,7 +50,6 @@ body {
 
 .ws-side-info {
   margin-top: 100px;
-  font-size: smaller;
 }
 
 .ws-side-info i {
@@ -121,7 +120,6 @@ body {
   padding: 3em;
   background-color: white;
   min-height: 280px;
-  font-size: smaller;
 }
 
 .ws-image-placeholder {
@@ -133,7 +131,6 @@ body {
   padding: 3em;
   background-color: white;
   min-height: 280px;
-  font-size: smaller;
   border-right: 1px solid #f2f2f3;
 }
 
@@ -149,7 +146,6 @@ body {
   padding: 3em;
   background-color: white;
   min-height: 400px;
-  font-size: smaller;
 }
 
 .ws-contact {
@@ -170,7 +166,6 @@ body {
   padding: 3em;
   background-color: white;
   min-height: 280px;
-  font-size: smaller;
   border-right: 1px solid #f2f2f3;
 }
 
