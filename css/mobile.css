@@ -10,44 +10,101 @@
     background-position: center 50%; 
   }
 
+  .ws-bg6 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg7 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg8 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg9 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg10 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
   .ws-bg30 {
+    height: 350px;
     color: white;
     background-color: cadetblue;
+    background-size: cover;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   .ws-bg31 {
+    height: 350px;
     color: white;
-    background-color:blueviolet; 
+    background-color:blueviolet;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
   }
 
   .ws-bg32 {
+    height: 350px;
     color: white;
-    background-color:crimson; 
+    background-color:crimson;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
   }
 
   .ws-bg33 {
+    height: 350px;
     color: white;
     background-color: gray;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   .ws-bg34 {
+    height: 350px;
     color: white;
     background-color: darkolivegreen;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   .ws-bg35 {
+    height: 350px;
     color: white;
     background-color: darkslateblue;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   .ws-bg36 {
+    height: 350px;
     color: white;
     background-color: forestgreen;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
   
   .ws-bg37 {
+    height: 350px;
     color: white;
     background-color: royalblue;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   #side-nav {
