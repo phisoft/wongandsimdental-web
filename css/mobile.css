@@ -6,15 +6,48 @@
 
   .flex-row {
     display: flex;
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
+    background-position: center 50%; 
   }
 
-  .ws-bg2 {
-    background-color: turquoise;
+  .ws-bg30 {
+    color: white;
+    background-color: cadetblue;
   }
 
-  .ws-bg3 {
-    background-color:rgb(215, 235, 146); 
+  .ws-bg31 {
+    color: white;
+    background-color:blueviolet; 
+  }
+
+  .ws-bg32 {
+    color: white;
+    background-color:crimson; 
+  }
+
+  .ws-bg33 {
+    color: white;
+    background-color: gray;
+  }
+
+  .ws-bg34 {
+    color: white;
+    background-color: darkolivegreen;
+  }
+
+  .ws-bg35 {
+    color: white;
+    background-color: darkslateblue;
+  }
+
+  .ws-bg36 {
+    color: white;
+    background-color: forestgreen;
+  }
+  
+  .ws-bg37 {
+    color: white;
+    background-color: royalblue;
   }
 
   #side-nav {
