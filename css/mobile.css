@@ -155,6 +155,11 @@
     background-position: center 100%; 
   }
   
+  /*Contact Us*/
+  .carousel-item {
+    background-image: none;
+  }
+
   #side-nav {
     display: none;
   }
