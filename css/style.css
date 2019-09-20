@@ -59,10 +59,13 @@ body {
 }
 
 .ws-line {
-  border: 1px solid #f2f2f3;
-  padding: 3em;
-  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 800px;
+  margin: auto;
 }
+
 
 .ws-purpose {
   text-align: center;
@@ -74,16 +77,18 @@ body {
 
 .ws-purpose-item {
   padding: 3em;
-  background-color: white;
+  color: white;
+  border-right: 0.5px dotted whitesmoke;
+  background-color: rgb(20, 168, 156);
   min-height: 280px;
 }
 
 .ws-button {
   display: block;
   padding: 0.5em;
+  color: white;
   background-color: #208d83;
   text-decoration: none;
-  color: white;
   margin: auto;
   margin-top: 30px;
   width: 200px;

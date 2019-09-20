@@ -156,8 +156,9 @@
   }
   
   /*Contact Us*/
-  .fixed {
-    overflow: hidden;
+  .carousel-caption {
+    height: none;
+    width: none;
   }
 
   #side-nav {
