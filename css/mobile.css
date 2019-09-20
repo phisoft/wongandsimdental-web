@@ -156,8 +156,8 @@
   }
   
   /*Contact Us*/
-  .bd-example {
-    background-image: none;
+  .fixed {
+    overflow: hidden;
   }
 
   #side-nav {
