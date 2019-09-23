@@ -24,7 +24,7 @@ body {
   padding: 0.5em;
   width: 100vw;
   min-height: 100vh;
-  background-color: #f2f3f3;
+  background-color: whitesmoke;
 }
 
 #side-nav ul {
@@ -59,27 +59,21 @@ body {
 }
 
 .ws-line {
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  max-width: 800px;
-  margin: auto;
+  text-align: middle;
 }
 
 
 .ws-purpose {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 800px;
-  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: mediumturquoise;
 }
 
 .ws-purpose-item {
   padding: 3em;
-  color: white;
-  border-right: 0.5px dotted whitesmoke;
-  background-color: rgb(20, 168, 156);
+  color: black;
+  background-color: whitesmoke;
   min-height: 280px;
 }
 
@@ -364,7 +358,7 @@ body {
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/106975304_s.jpg);
+  background-image: url(../images/wong&sim/46251063_s.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -388,7 +382,7 @@ body {
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/46251063_s.jpg);
+  background-image: url(../images/wong&sim/106975304_s.jpg);
   background-position: center 35%;
   background-size: cover;
 }

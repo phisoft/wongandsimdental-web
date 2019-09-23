@@ -10,6 +10,11 @@
     background-position: center 50%; 
   }
 
+  /*Home Page*/
+  .ws-bg60 {
+    background-color: aqua;
+  }
+
   /*Treatment Images*/
   .ws-bg6 {
     height: 350px;
@@ -39,8 +44,8 @@
   /*Treatment Word*/
   .ws-bg30 {
     height: 350px;
-    color: white;
-    background-color: cadetblue;
+    color: black;
+    background-color: mediumturquoise;
     background-size: cover;
     background-position: center 100%;
     padding-top: 10%;
@@ -48,8 +53,8 @@
 
   .ws-bg31 {
     height: 350px;
-    color: white;
-    background-color:blueviolet;
+    color: black;
+    background-color:aquamarine;
     background-size: cover;
     background-position: center 100%; 
     padding-top: 10%;
@@ -57,8 +62,8 @@
 
   .ws-bg32 {
     height: 350px;
-    color: white;
-    background-color:crimson;
+    color: black;
+    background-color:lightsteelblue;
     background-size: cover;
     background-position: center 100%; 
     padding-top: 10%;
@@ -66,8 +71,8 @@
 
   .ws-bg33 {
     height: 350px;
-    color: white;
-    background-color: gray;
+    color: black;
+    background-color: paleturquoise;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;
@@ -75,8 +80,8 @@
 
   .ws-bg34 {
     height: 350px;
-    color: white;
-    background-color: darkolivegreen;
+    color: black;
+    background-color: mediumturquoise;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;
@@ -84,8 +89,8 @@
 
   .ws-bg35 {
     height: 350px;
-    color: white;
-    background-color: darkslateblue;
+    color: black;
+    background-color: aquamarine;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;
@@ -93,8 +98,8 @@
 
   .ws-bg36 {
     height: 350px;
-    color: white;
-    background-color: forestgreen;
+    color: black;
+    background-color: lightsteelblue;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;
@@ -102,8 +107,8 @@
   
   .ws-bg37 {
     height: 350px;
-    color: white;
-    background-color: royalblue;
+    color: black;
+    background-color: paleturquoise;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;
