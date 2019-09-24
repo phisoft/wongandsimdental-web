@@ -44,8 +44,8 @@
   /*Treatment Word*/
   .ws-bg30 {
     height: 350px;
-    color: black;
-    background-color: mediumturquoise;
+    color: white;
+    background-color: #038984;
     background-size: cover;
     background-position: center 100%;
     padding-top: 10%;
@@ -53,8 +53,8 @@
 
   .ws-bg31 {
     height: 350px;
-    color: black;
-    background-color:aquamarine;
+    color: white;
+    background-color:#097d78;
     background-size: cover;
     background-position: center 100%; 
     padding-top: 10%;
@@ -62,8 +62,8 @@
 
   .ws-bg32 {
     height: 350px;
-    color: black;
-    background-color:lightsteelblue;
+    color: white;
+    background-color:#066847;
     background-size: cover;
     background-position: center 100%; 
     padding-top: 10%;
@@ -71,44 +71,8 @@
 
   .ws-bg33 {
     height: 350px;
-    color: black;
-    background-color: paleturquoise;
-    background-size: 150%;
-    background-position: center 100%;
-    padding-top: 10%;
-  }
-
-  .ws-bg34 {
-    height: 350px;
-    color: black;
-    background-color: mediumturquoise;
-    background-size: 150%;
-    background-position: center 100%;
-    padding-top: 10%;
-  }
-
-  .ws-bg35 {
-    height: 350px;
-    color: black;
-    background-color: aquamarine;
-    background-size: 150%;
-    background-position: center 100%;
-    padding-top: 10%;
-  }
-
-  .ws-bg36 {
-    height: 350px;
-    color: black;
-    background-color: lightsteelblue;
-    background-size: 150%;
-    background-position: center 100%;
-    padding-top: 10%;
-  }
-  
-  .ws-bg37 {
-    height: 350px;
-    color: black;
-    background-color: paleturquoise;
+    color: white;
+    background-color: #915525;
     background-size: 150%;
     background-position: center 100%;
     padding-top: 10%;

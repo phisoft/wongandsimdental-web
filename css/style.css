@@ -9,7 +9,6 @@ body {
 }
 
 #side-nav {
-  padding: 0.5em;
   padding-top: 80px;
   padding-left: 0px;
   min-height: 100vh;
@@ -22,9 +21,9 @@ body {
 #content-container {
   margin-left: 280px;
   padding: 0.5em;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 #side-nav ul {
@@ -67,13 +66,28 @@ body {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: mediumturquoise;
+  background-color: #717f8b;
+  color: white;
+}
+
+.ws-width {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .ws-purpose-item {
   padding: 3em;
   color: black;
-  background-color: whitesmoke;
+  background-color: #e5e5f7;
   min-height: 280px;
 }
 
@@ -81,7 +95,7 @@ body {
   display: block;
   padding: 0.5em;
   color: white;
-  background-color: #208d83;
+  background-color: #044e47;
   text-decoration: none;
   margin: auto;
   margin-top: 30px;
@@ -365,10 +379,10 @@ body {
 
 .carousel-bg2 {
   min-height: 500px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../images/homepage/2w&s.jpg);
-  background-position: center 30%;
+  background-position: center 10%;
 }
 
 .carousel-bg3 {
