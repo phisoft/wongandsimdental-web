@@ -358,17 +358,17 @@ body {
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/46251063_s.jpg);
+  background-image: url(../images/homepage/1w&s.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
 }
 
 .carousel-bg2 {
   min-height: 500px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/43740220_s.jpg);
-  background-position: center 60%;
+  background-image: url(../images/homepage/2w&s.jpg);
+  background-position: center 30%;
 }
 
 .carousel-bg3 {
