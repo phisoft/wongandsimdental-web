@@ -65,9 +65,7 @@ body {
 .ws-purpose {
   text-align: center;
   padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #717f8b;
-  color: white;
+  padding-bottom: 120px;
 }
 
 .ws-width {
@@ -87,7 +85,6 @@ body {
 .ws-purpose-item {
   padding: 3em;
   color: black;
-  background-color: #e5e5f7;
   min-height: 280px;
 }
 
@@ -95,7 +92,7 @@ body {
   display: block;
   padding: 0.5em;
   color: white;
-  background-color: #044e47;
+  background-color: #26beb9;
   text-decoration: none;
   margin: auto;
   margin-top: 30px;
@@ -162,8 +159,8 @@ body {
 }
 
 .ws-contact {
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   text-align: center;
   max-width: 700px;
   margin: auto;
