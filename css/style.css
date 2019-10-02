@@ -388,23 +388,23 @@ body {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/homepage/2w&s.jpg);
-  background-position: center 10%;
+  background-image: url(../images/wong&sim/40129756_s.jpg);
+  background-position: center 50%;
 }
 
 .carousel-bg3 {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-image: url(../images/wong&sim/banner3.jpg);
   background-position: center 55%;
 }
 
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/106975304_s.jpg);
-  background-position: center 35%;
+  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-position: center 65%;
   background-size: cover;
 }
 
