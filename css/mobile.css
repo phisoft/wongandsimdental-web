@@ -10,44 +10,122 @@
     background-position: center 50%; 
   }
 
+  /*Home Page*/
+  .ws-bg60 {
+    background-color: aqua;
+  }
+
+  /*Treatment Images*/
+  .ws-bg6 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg7 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg8 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg9 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  .ws-bg10 {
+    height: 350px;
+    background-position: center 100%;
+  }
+
+  /*Treatment Word*/
   .ws-bg30 {
+    height: 350px;
     color: white;
-    background-color: cadetblue;
+    background-color: #038984;
+    background-size: cover;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
   .ws-bg31 {
+    height: 350px;
     color: white;
-    background-color: #7f4eac; 
+    background-color:#097d78;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
   }
 
   .ws-bg32 {
+    height: 350px;
     color: white;
-    background-color: #b02d47; 
+    background-color:#066847;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
   }
 
   .ws-bg33 {
+    height: 350px;
     color: white;
-    background-color: gray;
+    background-color: #915525;
+    background-size: 150%;
+    background-position: center 100%;
+    padding-top: 10%;
   }
 
-  .ws-bg34 {
-    color: white;
-    background-color: darkolivegreen;
+  /*Clinic Images*/
+  .ws-bg21 {
+    height: 350px;
+    background-position: center 100%; 
   }
 
-  .ws-bg35 {
-    color: white;
-    background-color: darkslateblue;
+  .ws-bg22 {
+    height: 350px;
+    background-position: center 100%; 
   }
 
-  .ws-bg36 {
-    color: white;
-    background-color: #386a38;
+  .ws-bg23 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg24 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg25 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg26 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg27 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg28 {
+    height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg29 {
+    height: 350px;
+    background-position: center 100%; 
   }
   
-  .ws-bg37 {
-    color: white;
-    background-color: royalblue;
+  /*Contact Us*/
+  .carousel-caption {
   }
 
   #side-nav {

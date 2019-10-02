@@ -9,7 +9,6 @@ body {
 }
 
 #side-nav {
-  padding: 0.5em;
   padding-top: 80px;
   padding-left: 0px;
   min-height: 100vh;
@@ -22,9 +21,9 @@ body {
 #content-container {
   margin-left: 280px;
   padding: 0.5em;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
-  background-color: #f2f3f3;
+  background-color: #fefefe;
 }
 
 #side-nav ul {
@@ -59,31 +58,44 @@ body {
 }
 
 .ws-line {
-  border: 1px solid #f2f2f3;
-  padding: 3em;
-  background-color: white;
+  text-align: middle;
 }
+
 
 .ws-purpose {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 800px;
-  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.ws-width {
+  max-width: 600px;
+  margin: auto;  
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .ws-purpose-item {
   padding: 3em;
-  background-color: white;
+  padding-top: 5em;
+  color: black;
   min-height: 280px;
 }
 
 .ws-button {
   display: block;
   padding: 0.5em;
-  background-color: #208d83;
-  text-decoration: none;
   color: white;
+  background-color: #26beb9;
+  text-decoration: none;
   margin: auto;
   margin-top: 30px;
   width: 200px;
@@ -150,9 +162,9 @@ body {
 
 .ws-contact {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   text-align: center;
-  max-width: 900px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -163,7 +175,7 @@ body {
 }
 
 .ws-contact-item {
-  padding: 3em;
+  padding: 2em;
   background-color: white;
   min-height: 280px;
   border-right: 1px solid #f2f2f3;
@@ -172,7 +184,7 @@ body {
 .ws-contact-grid {
   display: grid;
   grid-template-columns: 50px auto;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .ws-contact-grid i {
@@ -181,16 +193,18 @@ body {
 }
 
 .carousel-caption {
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 .ws-bg1 {
-  background-color: #f2f2f3;
+  color: white;
+  background-color: #7fa9b3;
 }
 
 .ws-bg2 {
   color: white;
   background-color: #7fa9b3;
+  padding-top: 10%;
 }
 
 .ws-bg3 {
@@ -200,11 +214,30 @@ body {
 
 .ws-bg4 {
   background-color: #E5E5f7;
+  padding-top: 10%;
 }
 
 .ws-bg5 {
   color: white;
   background-color: #af9d67;
+}
+
+.ws-bgg1 {
+  background-color: #f0f0f0;
+}
+
+.ws-bgg2 {
+  background-color: #dbdbdb;
+}
+
+/*Clinic Background*/
+.ws-bg40 {
+  color: white;
+  background-color: #7fa9b3; 
+}
+
+.ws-bg41 {
+  background-color: #E5E5f7;  
 }
 
 /* Treatment Cover Image */
@@ -342,36 +375,113 @@ body {
   height: 100%;
 }
 
+/*Home Page*/
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/106975304_s.jpg);
+  background-image: url(../images/homepage/1w&s.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
 }
 
 .carousel-bg2 {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/43740220_s.jpg);
-  background-position: center 60%;
+  background-image: url(../images/wong&sim/40129756_s.jpg);
+  background-position: center 50%;
 }
 
 .carousel-bg3 {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-image: url(../images/wong&sim/banner3.jpg);
   background-position: center 55%;
 }
 
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/46251063_s.jpg);
-  background-position: center 35%;
+  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-position: center 65%;
   background-size: cover;
+}
+
+/*Contact Us*/
+.carousel-bg6 {
+  min-height: 500px;
+}
+
+.carousel-bg7 {
+  min-height: 500px;
+}
+
+.carousel-bg8 {
+  min-height: 500px;
+}
+
+.carousel-bg9 {
+  min-height: 500px;
+}
+
+.carousel-bg10 {
+  min-height: 500px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-right: 500px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+p5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  text-shadow: 2px 1px rgb(48, 46, 46)
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-right: 700px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-right: 750px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+.contact-carousel {
+  background-image: url(../images/bannertest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  font-size: 18px;
+}
+
+.ws-contact-container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.quote {
+  font-size: 16pt;
+}
+
+.cited {
+  font-size: 14pt;
+  margin-top: 10pt;
 }
 
 @import url("mobile.css");
