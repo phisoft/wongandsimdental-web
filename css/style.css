@@ -69,7 +69,8 @@ body {
 }
 
 .ws-width {
-  width: 100%;
+  max-width: 600px;
+  margin: auto;  
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -84,6 +85,7 @@ body {
 
 .ws-purpose-item {
   padding: 3em;
+  padding-top: 5em;
   color: black;
   min-height: 280px;
 }
@@ -191,7 +193,7 @@ body {
 }
 
 .carousel-caption {
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 .ws-bg1 {
@@ -218,6 +220,14 @@ body {
 .ws-bg5 {
   color: white;
   background-color: #af9d67;
+}
+
+.ws-bgg1 {
+  background-color: #f0f0f0;
+}
+
+.ws-bgg2 {
+  background-color: #dbdbdb;
 }
 
 /*Clinic Background*/
@@ -419,24 +429,32 @@ body {
   min-height: 500px;
 }
 
-p1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 30px;
-}
-
 h1 {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
 }
 
-.fixed {
+.contact-carousel {
   background-image: url(../images/bannertest.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 30%;
-  border: 1px solid black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
+  background-position: center 20%;
+  font-size: 18px;
+}
+
+.ws-contact-container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.quote {
+  font-size: 16pt;
+}
+
+.cited {
+  font-size: 14pt;
+  margin-top: 10pt;
 }
 
 @import url("mobile.css");
