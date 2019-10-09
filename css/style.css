@@ -198,7 +198,8 @@ body {
 
 .ws-bg1 {
   color: white;
-  background-color: #7fa9b3;
+  font-size: 13pt;
+  background-color: #4a94a6;
 }
 
 .ws-bg2 {
@@ -388,23 +389,23 @@ body {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/40129756_s.jpg);
-  background-position: center 50%;
+  background-image: url(../images/wong&sim/asas.jpg);
+  background-position: center 60%;
 }
 
 .carousel-bg3 {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/banner3.jpg);
+  background-image: url(../images/wong&sim/116215139_s.jpg);
   background-position: center 55%;
 }
 
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/116215139_s.jpg);
-  background-position: center 65%;
+  background-image: url(../images/wong&sim/40129756_s.jpg);
+  background-position: center 45%;
   background-size: cover;
 }
 
@@ -468,6 +469,61 @@ h2 {
   font-size: 18px;
 }
 
+/*New Home Page Background*/
+.ws-bg60 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/46043757_s.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 15%;
+}
+
+.ws-bg61 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/implant.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg62 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/116215139_s.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg63 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/43740177_s.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg64 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/10511.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+
+.ws-bg65 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/wong&sim/HomepageBackground/101144164_s.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .ws-contact-container {
   max-width: 800px;
   margin: auto;
@@ -476,12 +532,20 @@ h2 {
 }
 
 .quote {
-  font-size: 16pt;
+  font-size: 20pt;
+  margin-top: 80pt;
+  text-align: left;
 }
 
 .cited {
-  font-size: 14pt;
-  margin-top: 10pt;
+  font-size: 18pt;
+  margin-top: 80pt;
+  text-align: left;
+}
+
+p10 {
+  font-size: 25pt;
+  border-bottom: white solid;
 }
 
 @import url("mobile.css");
