@@ -139,9 +139,12 @@ body {
   text-align: center;
 }
 
+.ws-partner {
+  background-color: #e0f0f2 !important;
+}
+
 .ws-partner-item {
   padding: 3em;
-  background-color: white;
   min-height: 280px;
   border-right: 1px solid #f2f2f3;
 }
