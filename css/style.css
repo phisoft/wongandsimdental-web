@@ -389,7 +389,7 @@ body {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/asas.jpg);
+  background-image: url(../images/wong&sim/bg1.jpg);
   background-position: center 60%;
 }
 
@@ -397,14 +397,14 @@ body {
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/116215139_s.jpg);
+  background-image: url(../images/wong&sim/bg2.jpg);
   background-position: center 55%;
 }
 
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/wong&sim/40129756_s.jpg);
+  background-image: url(../images/wong&sim/bg3.jpg);
   background-position: center 45%;
   background-size: cover;
 }
