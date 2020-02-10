@@ -12,6 +12,43 @@
 
   /*Home Page*/
   
+  .carousel-bg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg1.jpg);
+    background-position: left 20%;
+  }
+
+  .carousel-bg3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg2.jpg);
+    background-position: center top;
+  }
+  
+  .carousel-bg4 {
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg3.jpg);
+    background-position: left 20%;
+    background-size: cover;
+  }
+
+  .car-cap {
+     width:100%;
+      font-size: 20pt;
+      font-weight: 800;
+      color:#fff;
+      text-align:center;
+      bottom:100%;
+      -webkit-transform:translate(0, 100%);
+      -ms-transform:translate(0, 100%);
+      transform:translate(0, 700%);
+  }
+
+  .car-font {
+    color: black;
+  }
+
   .ws-bg60 {
     background-color: aqua;
   }
@@ -126,8 +163,7 @@
   }
   
   /*Contact Us*/
-  .carousel-caption {
-  }
+  
 
   #side-nav {
     display: none;
@@ -153,7 +189,7 @@
 
   .nav-item {
     padding-left: 1em;
-  },
+  }
 
   .navbar-brand {
     padding: 0.5em;
