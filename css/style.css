@@ -476,6 +476,7 @@ h2 {
   background-size: cover;
   background-position: center 20%;
   font-size: 18px;
+  opacity: 0.8;
 }
 
 /*New Home Page Background*/
@@ -541,20 +542,36 @@ h2 {
 }
 
 .quote {
-  font-size: 20pt;
-  margin-top: 80pt;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20pt;
+  font-size: 17pt;
+  -webkit-transform:translate(0, 1000%);
+  /* -ms-transform:translate(0, 100%); */
+  transform:translate(-4%, -40%);
 }
 
 .cited {
-  font-size: 18pt;
-  margin-top: 80pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 11pt;
+  margin-top: 10pt;
   text-align: left;
 }
 
+.greview {
+  max-width: 20%;
+  max-height: 30%; 
+  filter: brightness(0) invert(1);
+   -webkit-transform:translate(0, 1000%);
+  /* -ms-transform:translate(0, 100%); */
+  transform:translate(-220%, -100%);
+}
+
 p10 {
-  font-size: 25pt;
-  border-bottom: white solid;
+  font-size: 11pt;
+  padding-bottom: 6px;
+  border-bottom: 2px solid cyan;
 }
 
 @import url("mobile.css");
