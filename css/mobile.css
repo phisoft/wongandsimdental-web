@@ -1,16 +1,9 @@
 @media screen and (max-width: 40.0rem) {
-  .row {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .flex-row {
+  .row-reverse {
     display: flex;
     flex-direction: column-reverse;
     background-position: center 50%; 
   }
-
-  /*Home Page*/
   
   .carousel-bg2 {
     background-size: cover;
