@@ -48,13 +48,18 @@ body {
 }
 
 .ws-side-info {
-  margin-top: 100px;
+  margin-top: 10px;
+
 }
 
 .ws-side-info i {
-  color: #186b63;
+  color: #26beb9;
   font-size: 16pt;
   margin: 0.5em;
+}
+
+.fa {
+  color: #4a94a6;
 }
 
 .ws-line {
@@ -171,7 +176,7 @@ body {
 .ws-contact i {
   font-size: 16pt;
   margin: 0.5em;
-  color: #186b63;
+  color: #26beb9;
 }
 
 .ws-contact-item {
@@ -188,7 +193,7 @@ body {
 }
 
 .ws-contact-grid i {
-  color: #186b63;
+  color: #26beb9;
   font-size: 16pt;
 }
 
@@ -572,6 +577,14 @@ p10 {
   font-size: 11pt;
   padding-bottom: 6px;
   border-bottom: 2px solid cyan;
+}
+
+.loc-pad {
+  padding-bottom: 20px;
+}
+
+.iconc {
+  color: #4a94a6;
 }
 
 @import url("mobile.css");
