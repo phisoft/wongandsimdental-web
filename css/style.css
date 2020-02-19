@@ -570,6 +570,7 @@ h2 {
 }
 
 .greview {
+  margin-top: 10px;
   max-width: 20%;
   max-height: 30%; 
   filter: brightness(0) invert(1);
