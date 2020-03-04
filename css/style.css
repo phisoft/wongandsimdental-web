@@ -602,4 +602,15 @@ p10 {
   display: none !important;
 }
 
+.page-footer{
+  /* background-color: #43ADFF; */
+  /* background-color: silver; */
+  color: gray;
+}
+
+.footer-copyright .footer-link{
+  color: gray;
+  text-decoration: none;
+}
+
 @import url("mobile.css");
