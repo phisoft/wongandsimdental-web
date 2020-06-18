@@ -557,7 +557,6 @@ h2 {
   line-height: 20pt;
   font-size: 17pt;
   -webkit-transform:translate(0, 1000%);
-  /* -ms-transform:translate(0, 100%); */
   transform:translate(-4%, -40%);
 }
 
@@ -576,7 +575,7 @@ h2 {
   filter: brightness(0) invert(1);
    -webkit-transform:translate(0, 1000%);
   /* -ms-transform:translate(0, 100%); */
-  transform:translate(-220%, -100%);
+  transform:translate(-220%, -85%);
 }
 
 p10 {
