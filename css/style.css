@@ -560,6 +560,14 @@ h2 {
   transform:translate(-4%, -40%);
 }
 
+.quote-bg {
+-webkit-transform: translate(0, 1000%);
+transform: translate(-4%, -40%);
+background-color: black;
+opacity: 0.8;
+padding: 15px;
+}
+
 .cited {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;

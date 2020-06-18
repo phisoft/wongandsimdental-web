@@ -116,10 +116,10 @@
   /*Review*/
 
   .quote {
-    text-align: left;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
-    line-height: 20pt;
-    font-size: 17pt;
+    line-height: 18pt;
+    font-size: 14pt;
     -webkit-transform:translate(0, 1000%);
     transform:translate(-4%, -0%);
   }
