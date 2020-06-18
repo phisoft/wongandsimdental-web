@@ -26,6 +26,10 @@
     background-size: cover;
   }
 
+  .carousel-caption {
+    color: black !important;
+  }
+
   .car-cap {
      width:100%;
       font-size: 20pt;
