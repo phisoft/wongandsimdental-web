@@ -8,20 +8,20 @@
   .carousel-bg2 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg1.jpg);
+    background-image: url(../images/wong&sim/bgg1.jpg);
     background-position: left 20%;
   }
 
   .carousel-bg3 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg2.jpg);
+    background-image: url(../images/wong&sim/bgg2.jpg);
     background-position: center top;
   }
   
   .carousel-bg4 {
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg3.jpg);
+    background-image: url(../images/wong&sim/bgg3.jpg);
     background-position: left 20%;
     background-size: cover;
   }
