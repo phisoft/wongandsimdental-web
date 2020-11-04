@@ -8,15 +8,15 @@
   .carousel-bg2 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bgg1.jpg);
-    background-position: left 20%;
+    background-image: url(../images/banner-caring.jpg);
+    background-position: center left 40%;
   }
 
   .carousel-bg3 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bgg2.jpg);
-    background-position: center top;
+    background-image: url(../images/banner-smile.jpg);
+    background-position: center left 30%;
   }
   
   .carousel-bg4 {
@@ -42,6 +42,18 @@
       transform:translate(0, 700%);
   }
 
+  .car-cap2 {
+    width:100%;
+     font-size: 20pt;
+     font-weight: 800;
+     color:#fff;
+     text-align:center;
+     bottom:100%;
+     -webkit-transform:translate(0, 100%);
+     -ms-transform:translate(0, 100%);
+     transform:translate(0, 450%);
+ }
+
   .car-font {
     color: black;
   }
@@ -58,7 +70,7 @@
 
   .ws-bg7 {
     height: 350px;
-    background-position: center 100%;
+    background-position: center 55%;
   }
 
   .ws-bg8 {
@@ -73,7 +85,7 @@
 
   .ws-bg10 {
     height: 350px;
-    background-position: center 100%;
+    background-position: center 50%;
   }
 
   /*Treatment Word*/
@@ -128,7 +140,7 @@
   /*Clinic Images*/
   .ws-bg21 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center left 20%; 
   }
 
   .ws-bg22 {
@@ -143,12 +155,12 @@
 
   .ws-bg24 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 50%; 
   }
 
   .ws-bg25 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 50%; 
   }
 
   .ws-bg26 {
@@ -158,12 +170,12 @@
 
   .ws-bg27 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 20%; 
   }
 
   .ws-bg28 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 50%; 
   }
 
   .ws-bg29 {
