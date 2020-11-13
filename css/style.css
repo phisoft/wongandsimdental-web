@@ -714,10 +714,10 @@ p10 {
 
 .fade-in {
   opacity: 0;
-  transition: opacity 1000ms ease-in, -webkit-transform 1000ms ease-in;
-  transition: opacity 1000ms ease-in, transform 1000ms ease-in;
-  transition: opacity 1000ms ease-in, transform 1000ms ease-in,
-    -webkit-transform 1000ms ease-in;
+  transition: opacity 500ms ease-in, -webkit-transform 500ms ease-in;
+  transition: opacity 500ms ease-in, transform 500ms ease-in;
+  transition: opacity 500ms ease-in, transform 500ms ease-in,
+    -webkit-transform 500ms ease-in;
   -webkit-transform: translateY(20%);
   transform: translateY(20%);
 }
