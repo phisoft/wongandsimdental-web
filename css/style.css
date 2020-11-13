@@ -3,6 +3,10 @@ body {
   line-height: 1.5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #main-container {
   width: 100vw;
   min-height: 100vh;
@@ -707,3 +711,48 @@ p10 {
 }
 
 @import url("mobile.css");
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1000ms ease-in, -webkit-transform 1000ms ease-in;
+  transition: opacity 1000ms ease-in, transform 1000ms ease-in;
+  transition: opacity 1000ms ease-in, transform 1000ms ease-in,
+    -webkit-transform 1000ms ease-in;
+  -webkit-transform: translateY(20%);
+  transform: translateY(20%);
+}
+
+.fade-in.appear {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.from-left {
+  grid-column: 2 / 3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 500ms ease-in, -webkit-transform 800ms ease-in;
+  transition: opacity 500ms ease-in, transform 800ms ease-in;
+  transition: opacity 500ms ease-in, transform 800ms ease-in,
+    -webkit-transform 800ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
