@@ -431,6 +431,14 @@ transform:translate(-4%, 450%);
   background-position: center 30%;
 }
 
+.carousel-bgCovid {
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/covid.jpg);
+  background-position: center;
+}
+
 .carousel-bg2 {
   min-height: 500px;
   background-size: cover;
