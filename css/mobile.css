@@ -58,6 +58,17 @@
     color: black;
   }
 
+  /* COVID banner */
+
+  .ws-bg912 {
+    background-image: url(../images/covid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 160px;
+}
+
   /* Review part */
 
 
