@@ -58,17 +58,6 @@
     color: black;
   }
 
-  /* COVID banner */
-
-  .ws-bg912 {
-    background-image: url(../images/covid.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: auto;
-    height: 160px;
-}
-
   /* Review part */
 
 
@@ -258,6 +247,33 @@
 
   a.nav-link {
     color: white !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .ws-bg912 {
+    background-position: center left 8% !important;
+    height: 270px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ws-bg912 {
+    background-position: center left 8% !important;
+    height: 250px !important;
+  }
+}
+
+/* Tablet version */
+
+@media screen and (max-width: 768px) {
+  .ws-bg912 {
+    background-image: url(../images/covidwt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left 5%;
+    width: auto;
+    height: 300px;
   }
 }
 
