@@ -243,7 +243,7 @@ transform:translate(-4%, 450%);
 }
 
 .ws-bg912 {
-  background-image: url(../images/covid.jpg);
+  background-image: url(../images/covidwt.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -796,4 +796,26 @@ p9 {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .ws-bg912 {
+    background-image: url(../images/covidwt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ws-bg912 {
+    background-image: url(../images/covidwt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 450px;
+  }
 }
