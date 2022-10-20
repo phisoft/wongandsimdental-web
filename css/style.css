@@ -503,6 +503,22 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
+.ws-bg30 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/wong&sim/Intraoral.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ws-bg31 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/wong&sim/CBCT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .general-dentistry {
   width: 100%;

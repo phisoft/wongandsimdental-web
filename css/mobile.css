@@ -220,8 +220,18 @@
     background-position: center 100%; 
   }
   
-  /*Contact Us*/
+  .ws-bg30 {
+    height: 350px;
+    background-position: center 50%; 
+  }
+
+  .ws-bg31 {
+    height: 350px;
+    background-position: center 100%; 
+  }
   
+  /*Contact Us*/
+   
 
   #side-nav {
     display: none;
