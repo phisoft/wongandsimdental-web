@@ -213,6 +213,14 @@ html {
   background-repeat: no-repeat;
 }
 
+.ws-image10 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/doctors/DrTan.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .ws-image-placeholder {
   vertical-align: middle;
   text-align: center;
