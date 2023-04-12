@@ -181,6 +181,14 @@ html {
   background-repeat: no-repeat;
 }
 
+.ws-image5 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/doctors/DrGerviene.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .ws-image6 {
   color: white;
   height: 500px;
