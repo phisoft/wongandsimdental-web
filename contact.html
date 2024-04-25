@@ -74,7 +74,53 @@
     <a href="https://www.facebook.com/wongandsimdental/"><i class="fa fa-facebook-official fade-in"></i></a>
     <a href="https://instagram.com/wongandsimdental"><i class="fa fa-instagram fade-in"></i></a>
   </div>
-<div>
+
+  <!-- CONTACT FORM -->
+  <section class="contact-section">
+    <div class="contact-intro">
+      <p class="contact-description">
+        Fill out the form below and we'll get back to you as soon as possible.
+      </p>
+    </div>
+  
+    <form class="contact-form" onsubmit="sendEmail(); return false;">
+      <div class="form-group-container">
+        <div class="form-group">
+          <label for="name" class="form-label">NAME (REQUIRED):</label>
+          <input id="name" name="name" class="form-input demo-input" placeholder="Your name" type="text" required />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">PHONE NUMBER (REQUIRED):</label>
+          <input id="phone" name="phone" class="form-input demo-input" placeholder="+60 123 567890" type="text" required/>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">EMAIL (REQUIRED):</label>
+          <input id="email" name="email" class="form-input demo-input" placeholder="Your email" type="email" required />
+        </div>
+        <div class="form-group">
+          <label for="branch" class="form-label">SELECT A BRANCH (REQUIRED):</label>
+          <select id="branch" name="branch" class="form-select demo-input" onchange="updateDoctors()" required>
+            <option value="" disabled selected>Select a branch</option>
+            <option value="Pulau Tikus">Pulau Tikus</option>
+            <option value="Summerton">Summerton</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="doctor" class="form-label">SELECT A DOCTOR (REQUIRED):</label>
+          <select id="doctor" name="doctor" class="form-select demo-input" required>
+            <option value="" disabled selected>Select a doctor</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">MESSAGE (REQUIRED):</label>
+          <textarea class="form-textarea demo-input" id="message" name="message" placeholder="Your message" required></textarea>
+        </div>
+      </div>
+      <button class="form-submit" onclick="sendEmail();" type="button">Send Message</button>
+    </form>
+
+  </section>
+
     <div class="ws-banner fade-in">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -213,5 +259,69 @@
 </div>
 </div>
 <script src="js/observers.js"></script>
+<script>
+  function updateDoctors() {
+    var branchSelect = document.getElementById("branch");
+    var doctorSelect = document.getElementById("doctor");
+    var doctors = {
+      "Pulau Tikus": ["Dr Brenda Sim", "Dr Gerviene Choo", "Dr Charlotte Hing", "Dr Vivian Tan"],
+      "Summerton": ["Dr Rachel Chan", "Dr Loo Chien Win", "Dr Vivian Tan", "Dr Kenneth Wong"]
+    };
+
+    var selectedBranch = branchSelect.value;
+    doctorSelect.innerHTML = "";
+
+    if (selectedBranch) {
+      var branchDoctors = doctors[selectedBranch];
+      for (var i = 0; i < branchDoctors.length; i++) {
+        var option = document.createElement("option");
+        option.text = branchDoctors[i];
+        doctorSelect.add(option);
+      }
+    } else {
+      var defaultOption = document.createElement("option");
+      defaultOption.text = "Select a doctor";
+      defaultOption.disabled = true;
+      defaultOption.selected = true;
+      doctorSelect.add(defaultOption);
+    }
+  }
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail() {
+    if (validateForm()) {
+      Email.send({
+        SecureToken : "a290ab1a-5791-4941-be8d-51347f51ffa1",
+        To: 'wongandsimdentalsurgery@gmail.com',
+        From: "contactform.appsubmission@gmail.com",
+        Subject: "Wong & Sim Dental Surgery Contact Form Submission",
+        Body: "Name: " + document.getElementById("name").value +
+          "<br> Phone Number: " + document.getElementById("phone").value +
+          "<br> Email: " + document.getElementById("email").value +
+          "<br> Company Name: " + document.getElementById("branch").value +
+          "<br> Company Name: " + document.getElementById("doctor").value +
+          "<br> Message: " + document.getElementById("message").value
+      }).then(
+        message => alert("Message successfully sent.")
+      );
+    } else {
+      alert("Please fill in all required fields.");
+    }
+  }
+  function validateForm() {
+    var isValid = true;
+    var inputs = document.getElementsByClassName('demo-input');
+    for (var i = 0; i < inputs.length; i++) {
+      if (!inputs[i].value) {
+        isValid = false;
+        inputs[i].classList.add('is-invalid');
+      } else {
+        inputs[i].classList.remove('is-invalid');
+      }
+    }
+    return isValid;
+  }
+</script>
 </body>
 </html>
