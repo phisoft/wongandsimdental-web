@@ -6,6 +6,7 @@
   <meta name="keywords" content="Wongandsimdental, wongandsim, dental, dentist, penang, pulau tikus, summerton, pulau pinang, Georgetown">
   <meta name="description" content="Wong & Sim Dental Surgery located in two prominent locations across Penang, Malaysia – Summerton, Bayan Lepas & Pulau Tikus, Georgetown.">
   <title> Wong and Sim Dental Penang - Dentist Penang </title>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -227,6 +228,68 @@
     <a href="https://www.facebook.com/wongandsimdental/"><i class="fa fa-facebook-official fade-in"></i></a>
     <a href="https://instagram.com/wongandsimdental"><i class="fa fa-instagram fade-in"></i> <br/><br/></a>
   </div>
+
+  <div class="container">
+    <div class="ws-testimonials ws-width fade-in">
+      <h3>Patient Testimonials</h3>
+    </div>
+    <div class="fade-in gtco-testimonials">
+      <div class="owl-carousel owl-carousel1 owl-theme">
+        <div>
+          <div class="card text-center"><img class="card-img-top" src="images/testimonials/shuet.jpg" alt="">
+            <div class="card-body">
+              <h5>Shuet Ying Yaw<br />
+              </h5>
+              <p class="card-text">Dr Loo is experienced dentist and which provides the options suitable for the patient.
+                Both nurse and doctor will constantly follow up on the patient’s condition. The environment in the clinic was good.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card text-center"><img class="card-img-top" src="images/testimonials/sing.png" alt="">
+            <div class="card-body">
+              <h5>Sing Sze Khew<br />
+              </h5>
+              <p class="card-text">I feel that one of the best dental doctors that I can find in Penang island! You can always look for Dr. Wong gentle and experienced! Dr. Vivian too !</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card text-center"><img class="card-img-top" src="images/testimonials/may.jpg" alt="">
+            <div class="card-body">
+              <h5>May Ling Chai<br />
+              </h5>
+              <p class="card-text">Visited Wong & Sim since few years ago, good service from Dr.Rachel, she is a very good dentist in providing her professional service and advices!</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card text-center"><img class="card-img-top" src="images/testimonials/jamie.jpg" alt="">
+            <div class="card-body">
+              <h5>Jamie X.M Lee<br />
+              </h5>
+              <p class="card-text">Highly recommended to look for Dr Rachel. She is professional and gentle. She is very patience to explain every step and make sure you don't feel pain. And all the other staffs in this dentist also very friendly and helpful too. You will feel warm and welcoming.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card text-center">
+            <img class="card-img-top" src="images/testimonials/veronica.png" alt="">
+            <div class="card-body">
+              <h5>Veronica Rodrigues<br />
+              </h5>
+              <p class="card-text">I have low tolerance towards pain as I had bad experiences from my past visits to Dental facilities. My deepest gratitude to Dr Vivian. She is very gentle & professional when executing the procedures.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ws-testimonials-more ws-width fade-in">
+      <a href="https://search.google.com/local/reviews?placeid=ChIJkxPx1fnASjARcdSfKf3p1Nc&q=Wong+%26+Sim+Dental+Surgery+(Summerton)&hl=en&gl=MY" target="_blank"><h3>Read more reviews</h3></a>
+    </div>
+  </div>
+
     <div class="row">
       <div class="col-sm-6 ws-contact-item ws-bgg1 fade-in">
         <h3 class="loc-pad">SUMMERTON, BAYAN LEPAS</h3>
@@ -242,12 +305,12 @@
           <div class="loc-pad"><i class="fa fa-clock-o"></i></div>
           <div>
             Monday : 10:00 - 17:30 <br/>
-            Tuesday : 10:00 - 19:00 <br/> 
+            Tuesday : 10:00 - 19:00 <br/>
             Wednesday : 10:00 - 17:30 <br/>
             Thursday : 10:00 - 17:30 <br/>
             Friday : 10:00 - 19:00 <br/>
             Saturday : 10:00 - 17:30 <br/>
-            Sunday :  10:00 - 17:30 
+            Sunday :  10:00 - 17:30
           </div>
         </div>
       </div>
@@ -255,7 +318,7 @@
         <h3 class="loc-pad"> PULAU TIKUS, GEORGETOWN </h3>
         <div class="ws-contact-grid">
         <div class="loc-pad"><i class="fa fa-map-marker"></i></div>
-        <div> 
+        <div>
         277, Jalan Burma, 10350 Georgetown, Penang <br/></div>
         <div class="loc-pad"><i class="fa fa-mobile-phone"></i></div>
         <div> 012-9690106 </div>
@@ -289,5 +352,30 @@
 </div>
 </div>
 <script src="js/observers.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+  $(function () {
+    $(".owl-carousel1").owlCarousel({
+      items: 1,
+      loop: true,
+      center: true,
+      margin: 0,
+      responsiveClass: true,
+      nav: false,
+      autoplay:true,
+      autoplayTimeout:5000,
+      responsive: {
+        680: {
+          items: 2,
+          loop: false
+        },
+        1000: {
+          items: 3,
+          nav: true
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>
