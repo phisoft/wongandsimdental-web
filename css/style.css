@@ -173,6 +173,15 @@ html {
 
 }
 
+.ws-image3 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/doctors/DrFreeda.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
 .ws-image4 {
   color: white;
   height: 500px;
