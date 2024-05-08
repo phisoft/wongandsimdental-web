@@ -1070,15 +1070,15 @@ p9 {
     padding: 0 10px;
     border-radius: 20px;
     border: 1px solid #26beb9;
-    height: 500px;
+    height: 370px;
 
     .card-img-top {
-      max-width: 100px;
+      max-width: 50px;
       border-radius: 50%;
       margin: 40px auto 0;
       box-shadow: 0 8px 20px -4px #95abbb;
-      width: 100px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
     }
 
     h5 {
@@ -1094,7 +1094,7 @@ p9 {
     }
 
     p {
-      font-size: 18px;
+      font-size: 1rem;
       color: #555;
       padding-bottom: 15px;
     }
