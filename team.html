@@ -18,48 +18,10 @@
 <body>
   <header></header>
   <div class="d-flex flex-row" id="main-container">
-    <div id="side-nav">
-      <a href="index.html"><img src="images/wong.jpg" width="150" /></a>
-      <ul>
-        <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
-        <li class="nav-item"><a class="nav-link" href="clinic.html"> Clinic </a></li>
-        <li class="nav-item"><a class="nav-link" href="team.html"> Our Team </a></li>
-        <li class="nav-item"><a class="nav-link" href="service.html"> Treatments </a></li>
-        <li class="nav-item"><a class="nav-link" href="location.html"> Locations </a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html"> Contact Us </a></li>
-        <li class="nav-item"><a class="nav-link" href="faq.html"> FAQS </a></li>
-      </ul>
-
-      <div class="ws-side-info">
-        <a href="mailto:wongandsimdental@gmail.com"><i class="fa fa-envelope-o"></i></a>
-        <a href="https://www.facebook.com/wongandsimdental/"><i class="fa fa-facebook-official"></i></a>
-        <a href="https://instagram.com/wongandsimdental"><i class="fa fa-instagram"></i> <br /><br /></a>
-      </div>
-    </div>
+    <div id="side-nav"></div>
     <div id="content-container">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img src="images/wong.jpg" width="120" />
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
-            <li class="nav-item"><a class="nav-link" href="clinic.html"> Clinic </a></li>
-            <li class="nav-item"><a class="nav-link" href="team.html"> Our Team </a></li>
-            <li class="nav-item"><a class="nav-link" href="service.html"> Treatments </a></li>
-            <li class="nav-item"><a class="nav-link" href="location.html"> Locations </a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html"> Contact Us </a></li>
-            <li class="nav-item"><a class="nav-link" href="faq.html"> FAQS </a></li>
-          </ul>
-        </div>
-      </nav>
+      <div id="navbar"></div>
       <!--- team -->
       <a name="team">
 
@@ -268,6 +230,13 @@
     </div>
   </div>
   <script src="js/observers.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+        $("#navbar").load("navbar.html");
+        $("#side-nav").load("side-nav.html");
+      });
+  </script>
 </body>
 
 </html>
