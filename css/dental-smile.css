@@ -1979,9 +1979,40 @@ p9 {
   color: #6c757d;
 }
 
-.container.service-wrap.service-bg {
-  padding: 40px 0;
-  background-color: transparent;
+@media only screen and (max-width: 768px) {
+  ws-services-item2-content {
+    padding-top: 10px;  /* Add top padding on smaller screens */
 }
+.ws-services-item2 {
+    padding-top: 10px;  /* Also add padding to the left section if needed */
+}
+  .smile-card {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .circle-number {
+      width: 40px; /* Adjusting size for smaller screens */
+      height: 40px;
+      font-size: 18px;
+  }
+
+  .card-title {
+      font-size: 1.2rem; /* Slightly smaller title for better fit */
+  }
+
+  .card-text {
+      font-size: 1rem; /* Adjusting text size for smaller screens */
+  }
+
+  .container.service-wrap.service-bg {
+      padding-left: 0.5px; /* Reducing container padding */
+      padding-right:0.5px;
+  }
+}
+
 
 
