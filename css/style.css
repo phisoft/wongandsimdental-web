@@ -28,7 +28,6 @@ html {
 #content-container {
   margin-left: 280px;
   padding: 0.5em;
-  width: calc(100% - 280px);
   min-height: 100vh;
   background-color: #fefefe;
 }
