@@ -54,8 +54,11 @@ html {
   min-height: 100vh;
   position: fixed;
   width: 280px;
+  height: 100vh;
+  overflow: auto;
   border-right: 1px solid silver;
   text-align: center;
+  background-color: #fff;
 }
 
 #content-container {
@@ -89,6 +92,7 @@ html {
 }
 
 .ws-side-info {
+  position:absolute;
   margin-top: 10px;
 }
 
