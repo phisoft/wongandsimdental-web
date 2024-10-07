@@ -1271,11 +1271,13 @@ p9 {
 
 .banner::after {
   content: "";
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  max-width: 100vh;
+  height: auto;
+  overflow: hidden;
 }
 
 /* ==========================================================================================================
@@ -1422,6 +1424,11 @@ p9 {
   background: #26beb9;
 }
 
+.ht-gradation.style-01 .item:hover .circle3 {
+  color: #ffffff;
+  background: #26beb9;
+}
+
 .circle-2-green {
   background-color: green;
 }
@@ -1455,6 +1462,22 @@ p9 {
 }
 
 .ht-gradation.style-01 .circle2 {
+  position: relative;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  background-color: transparent;
+  margin-bottom: 0;
+  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ht-gradation.style-01 .circle3 {
   position: relative;
   z-index: 1;
   width: 60px;
@@ -1984,10 +2007,10 @@ p9 {
 
 @media only screen and (max-width: 768px) {
   ws-services-item2-content {
-    padding-top: 10px;  /* Add top padding on smaller screens */
+    padding-top: 10px;  
 }
 .ws-services-item2 {
-    padding-top: 10px;  /* Also add padding to the left section if needed */
+    padding-top: 10px;  
 }
   .smile-card {
       padding-left: 15px;
@@ -1998,32 +2021,33 @@ p9 {
   }
 
   .circle-number {
-      width: 40px; /* Adjusting size for smaller screens */
+      width: 40px; 
       height: 40px;
       font-size: 18px;
   }
 
   .card-title {
-      font-size: 1.2rem; /* Slightly smaller title for better fit */
+      font-size: 1.2rem;
   }
 
   .card-text {
-      font-size: 1rem; /* Adjusting text size for smaller screens */
+      font-size: 1rem; /
   }
 
   .container.service-wrap.service-bg {
-      padding-left: 0.5px; /* Reducing container padding */
+      padding-left: 0.5px;
       padding-right:0.5px;
   }
 }
 
 /* Modern styling for the gallery box */
 .gallery-box {
-  background-color: #f8f9fa; 
-  padding: 15px; 
-  border-radius: 20px; 
+  background-color: transparent; 
+  padding: 10px; 
+  border-radius: 10px; 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease-in-out; 
+  max-width: 80%;
 }
 
 .gallery-box:hover {
@@ -2035,6 +2059,10 @@ p9 {
   border-radius: 15px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
   transition: all 0.3s ease; 
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .rounded-image:hover {

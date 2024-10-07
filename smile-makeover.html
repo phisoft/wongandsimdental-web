@@ -196,14 +196,33 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item item-1 animate  wow fadeInRight image-box-wrap" data-wow-delay="0.9s">
+                                <div class="circle-wrap d-flex justify-content-center">
+                                    <div class="mask">
+                                        <div class="wave-pulse wave-pulse-1"></div>
+                                        <div class="wave-pulse wave-pulse-2"></div>
+                                        <div class="wave-pulse wave-pulse-3"></div>
+                                    </div>
+                                    <h6 class="circle3">
+                                        <img src="../images/icons/smile.png" alt="Custom Icon" class="custom-icon" width="50" height="auto">
+                                </div>
+                                <div class="content-wrap text-center">
+                                    <h5 class="heading mb-4 third-title text-lg-center text-bold color-primary">Before and after gallery</h5>
+                                    <div class="text fourth-title text-lg-center"> Explore our smile transformation gallery to view the changes we’ve created for our patients. 
+                                        Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
+                                        we’re dedicated to helping you achieve the radiant smile you’ve always desired..</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-<!-- Before & After Gallery (inside existing structure) -->
 
-<div class="container-fluid fade-in">
-    <h3 class="second-title text-center"> <br> <br>Before & After Gallery</h3>
+<!-- Before & After Gallery (initially hidden) -->
+<div id="before-after-gallery" class="container-fluid fade-in" style="display: none;">
+    <h3 class="second-title text-center">Before & After Gallery</h3>
     <p class="fourth-title text-center">
         Explore our smile transformation gallery to view the changes we’ve created for our patients. 
         Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
@@ -225,8 +244,24 @@
                 <img src="../images/Photo3.jpg" alt="Before" class="img-fluid rounded-image">
             </div>
         </div>
+        <div class="col-md-4 mb-4">
+            <div class="gallery-box">
+                <img src="../images/Photo3.jpg" alt="Before" class="img-fluid rounded-image">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="gallery-box">
+                <img src="../images/Photo5.jpg" alt="Before" class="img-fluid rounded-image">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="gallery-box">
+                <img src="../images/Photo6.jpg" alt="Before" class="img-fluid rounded-image">
+            </div>
+        </div>
     </div>
 </div>
+
 
             <!-- Q&A Section -->
 
@@ -440,39 +475,22 @@
         });
     </script>
     <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Add click event listener to the "Before and After Gallery" link or button
-    document.getElementById('before-after-gallery-link').addEventListener('click', function() {
-        // Insert the gallery HTML into the placeholder
-        document.getElementById('before-after-gallery').innerHTML = `
-            <div class="container">
-                <h2 class="second-title text-center">Before & After Gallery</h2>
-                <p class="fourth-title text-center">
-                    Explore our smile transformation gallery to view the changes we’ve created for our patients. 
-                    Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
-                    we’re dedicated to helping you achieve the radiant smile you’ve always desired.
-                </p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/gallery/before1.jpg" alt="Before" class="img-fluid border-3">
-                        <img src="images/gallery/after1.jpg" alt="After" class="img-fluid border-3 mt-3">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/gallery/before2.jpg" alt="Before" class="img-fluid border-3">
-                        <img src="images/gallery/after2.jpg" alt="After" class="img-fluid border-3 mt-3">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/gallery/before3.jpg" alt="Before" class="img-fluid border-3">
-                        <img src="images/gallery/after3.jpg" alt="After" class="img-fluid border-3 mt-3">
-                    </div>
-                </div>
-            </div>
-        `;
-        // Optionally, scroll to the gallery section
-        document.getElementById('before-after-gallery').scrollIntoView({ behavior: 'smooth' });
-    });
-});
-</script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const galleryTrigger = document.querySelector('.circle3');
+        
+            const gallery = document.getElementById('before-after-gallery');
+        
+            galleryTrigger.addEventListener('click', function() {
+                if (gallery.style.display === 'block') {
+                    gallery.style.display = 'none'; 
+                } else {
+                    gallery.style.display = 'block';
+                    gallery.classList.add('show');
+                    gallery.scrollIntoView({ behavior: "smooth"})
+                }
+            });
+        });
+        </script>
 
 
 </body>
