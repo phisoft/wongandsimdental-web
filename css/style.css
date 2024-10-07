@@ -18,14 +18,17 @@ html {
   min-height: 100vh;
   position: fixed;
   width: 280px;
+  height: 100vh;
+  overflow: auto;
   border-right: 1px solid silver;
   text-align: center;
+  background-color: #fff;
 }
 
 #content-container {
   margin-left: 280px;
   padding: 0.5em;
-  width: 100%;
+  width: calc(100% - 280px);
   min-height: 100vh;
   background-color: #fefefe;
 }
@@ -52,6 +55,7 @@ html {
 }
 
 .ws-side-info {
+  position:absolute;
   margin-top: 10px;
 
 }
