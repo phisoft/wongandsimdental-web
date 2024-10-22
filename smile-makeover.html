@@ -191,30 +191,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
-                            <div class="item item-1 animate  wow fadeInRight image-box-wrap" data-wow-delay="0.9s" onclick="toggleGallery()">
-                                <div class="circle-wrap d-flex justify-content-center">
-                                    <div class="mask">
-                                        <div class="wave-pulse wave-pulse-1"></div>
-                                        <div class="wave-pulse wave-pulse-2"></div>
-                                        <div class="wave-pulse wave-pulse-3"></div>
-                                    </div>
-                                    <h6 class="circle3">
-                                        <img src="../images/icons/smile.png" alt="Custom Icon" class="custom-icon" width="50" height="auto">
-                                </div>
-                                <div class="content-wrap text-center">
-                                    <h5 class="heading mb-4 third-title text-lg-center text-bold color-primary">Before and after gallery</h5>
-                                    <div class="text fourth-title text-lg-center"> Explore our smile transformation gallery to view the changes we’ve created for our patients. 
-                                        Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
-                                        we’re dedicated to helping you achieve the radiant smile you’ve always desired.</div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="smile-container" id="smileContainer">
+            <div class="smile-container">
                 <div class="container service-wrap service-bg">
                     <div class="smile-before-after-title">
                         <h1><b>Before & After Gallery</b></h1>
@@ -493,17 +474,6 @@
             $("#navbar").load("navbar.html");
             $("#side-nav").load("side-nav.html");
         });
-    </script>
-
-    <script>
-        function toggleGallery() {
-            const smileContainer = document.getElementById('smileContainer');
-            if (smileContainer.style.display === 'none' || smileContainer.style.display === '') {
-                smileContainer.style.display = 'block';
-            } else {
-                smileContainer.style.display = 'none';
-            }
-        }
     </script>
 
 </body>
