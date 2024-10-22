@@ -187,12 +187,12 @@
                                     <h5 class="heading mb-4 third-title text-lg-center text-bold color-primary">The End Result</h5>
                                     <div class="text fourth-title text-lg-center">Embrace your stunning new smile! We’ll commemorate this remarkable achievement with photos and videos, 
                                         capturing the joy and confidence that come with your
-                                         transformed appearance.</div>
+                                        transformed appearance.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
-                            <div class="item item-1 animate  wow fadeInRight image-box-wrap" data-wow-delay="0.9s">
+                            <div class="item item-1 animate  wow fadeInRight image-box-wrap" data-wow-delay="0.9s" onclick="toggleGallery()">
                                 <div class="circle-wrap d-flex justify-content-center">
                                     <div class="mask">
                                         <div class="wave-pulse wave-pulse-1"></div>
@@ -206,7 +206,7 @@
                                     <h5 class="heading mb-4 third-title text-lg-center text-bold color-primary">Before and after gallery</h5>
                                     <div class="text fourth-title text-lg-center"> Explore our smile transformation gallery to view the changes we’ve created for our patients. 
                                         Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
-                                        we’re dedicated to helping you achieve the radiant smile you’ve always desired..</div>
+                                        we’re dedicated to helping you achieve the radiant smile you’ve always desired.</div>
                                 </div>
                             </div>
                         </div>
@@ -214,49 +214,74 @@
                 </div>
             </div>
 
-
-<!-- Before & After Gallery (initially hidden) -->
-<div id="before-after-gallery" class="container-fluid fade-in" style="display: none;">
-    <h3 class="second-title text-center">Before & After Gallery</h3>
-    <p class="fourth-title text-center">
-        Explore our smile transformation gallery to view the changes we’ve created for our patients. 
-        Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
-        we’re dedicated to helping you achieve the radiant smile you’ve always desired.
-    </p>
-    <div class="row justify-content-center">
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo1.jpg" alt="Before" class="img-fluid rounded-image">
+            <div class="smile-container" id="smileContainer">
+                <div class="container service-wrap service-bg">
+                    <div class="smile-before-after-title">
+                        <h1><b>Before & After Gallery</b></h1>
+                        <p>
+                            Explore our smile transformation gallery to view the changes we’ve created for our patients. 
+                            Whether you’re interested in a complete smile makeover or simply looking to enhance your smile, 
+                            we’re dedicated to helping you achieve the radiant smile you’ve always desired.
+                        </p>
+                    </div>
+                    <div class="row how">
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo1.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo2.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo3.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo3A.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo5.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05">
+                            <div class="item image-box-wrap-smile">
+                                <div class="before-after-wrap">
+                                    <div class="before-text">Before</div>
+                                        <img src="../images/Photo6.jpg" class="img-fluid rounded-image">
+                                    <div class="after-text">After</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo2.jpg" alt="Before" class="img-fluid rounded-image">
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo3.jpg" alt="Before" class="img-fluid rounded-image">
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo3.jpg" alt="Before" class="img-fluid rounded-image">
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo5.jpg" alt="Before" class="img-fluid rounded-image">
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="gallery-box">
-                <img src="../images/Photo6.jpg" alt="Before" class="img-fluid rounded-image">
-            </div>
-        </div>
-    </div>
-</div>
-
 
             <!-- Q&A Section -->
 
@@ -329,7 +354,7 @@
  <!-- Factor Section -->
  <div id="service" class="fh5co-features-outer mt-5" style="background-color: #26beb9;">
     <div>
-        <h1 class="second-title text-bold ws-services-item2 fs-30 color-primary animated fadeIn wow text-white"
+        <h1 class="second-title text-bold ws-services-item4 fs-30 color-primary animated fadeIn wow text-white"
             data-wow-delay="0.4s" style="font-weight: bold;">
            FACTORS TO CONSIDER WHEN DESIGNING YOUR NEW SMILE 
         </h1>
@@ -469,24 +494,17 @@
             $("#side-nav").load("side-nav.html");
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const galleryTrigger = document.querySelector('.circle3');
-        
-            const gallery = document.getElementById('before-after-gallery');
-        
-            galleryTrigger.addEventListener('click', function() {
-                if (gallery.style.display === 'block') {
-                    gallery.style.display = 'none'; 
-                } else {
-                    gallery.style.display = 'block';
-                    gallery.classList.add('show');
-                    gallery.scrollIntoView({ behavior: "smooth"})
-                }
-            });
-        });
-        </script>
 
+    <script>
+        function toggleGallery() {
+            const smileContainer = document.getElementById('smileContainer');
+            if (smileContainer.style.display === 'none' || smileContainer.style.display === '') {
+                smileContainer.style.display = 'block';
+            } else {
+                smileContainer.style.display = 'none';
+            }
+        }
+    </script>
 
 </body>
 
