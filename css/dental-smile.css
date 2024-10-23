@@ -1426,6 +1426,10 @@ p9 {
   background: #4a94a6;
 }
 
+.circle2 {
+  padding: 5px;
+}
+
 .ht-gradation.style-01 .item:hover .circle2 {
   color: #ffffff;
   background: #26beb9;
@@ -2054,7 +2058,6 @@ p9 {
 
 .smile-container {
   margin: 50px 0 50px 0;
-  display: none;
 }
 
 .smile-before-after-title {
