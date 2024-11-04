@@ -1645,7 +1645,7 @@ p9 {
     background-image: url('../images/dentalMobile.jpg'); /* Mobile image for Dental Smile */
     background-size: auto;
     background-position: center 20%;
-    height: 250px; 
+    height: 300px; 
     padding-top: 5px;
 }
 
@@ -1653,7 +1653,7 @@ p9 {
     background-image: url('../images/smileMobile.jpg'); /* Mobile image for Smile Makeover */
     background-size: auto;
     background-position: center 20%;
-    height: 250px; 
+    height: 300px; 
     padding-top: 5px;
 }
   .ht-gradation.style-01 {

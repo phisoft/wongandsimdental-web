@@ -1,10 +1,10 @@
-@media screen and (max-width: 40.0rem) {
+@media screen and (max-width: 40rem) {
   .row-reverse {
     display: flex;
     flex-direction: column-reverse;
-    background-position: center 50%; 
+    background-position: center 50%;
   }
-  
+
   .carousel-bg2 {
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     background-image: url(../images/banner-smile.jpg);
     background-position: center left 30%;
   }
-  
+
   .carousel-bg4 {
     background-repeat: no-repeat;
     background-image: url(../images/wong&sim/bgg3.jpg);
@@ -31,35 +31,34 @@
   }
 
   .car-cap {
-     width:100%;
-      font-size: 20pt;
-      font-weight: 800;
-      color:#fff;
-      text-align:center;
-      bottom:100%;
-      -webkit-transform:translate(0, 100%);
-      -ms-transform:translate(0, 100%);
-      transform:translate(0, 700%);
+    width: 100%;
+    font-size: 20pt;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    bottom: 100%;
+    -webkit-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    transform: translate(0, 700%);
   }
 
   .car-cap2 {
-    width:100%;
-     font-size: 20pt;
-     font-weight: 800;
-     color:#fff;
-     text-align:center;
-     bottom:100%;
-     -webkit-transform:translate(0, 100%);
-     -ms-transform:translate(0, 100%);
-     transform:translate(0, 450%);
- }
+    width: 100%;
+    font-size: 20pt;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    bottom: 100%;
+    -webkit-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    transform: translate(0, 450%);
+  }
 
   .car-font {
     color: black;
   }
 
   /* Review part */
-
 
   .ws-bg60 {
     background-color: aqua;
@@ -104,18 +103,18 @@
   .ws-bg31 {
     height: 350px;
     color: white;
-    background-color:#097d78;
+    background-color: #097d78;
     background-size: cover;
-    background-position: center 100%; 
+    background-position: center 100%;
     padding-top: 10%;
   }
 
   .ws-bg32 {
     height: 350px;
     color: white;
-    background-color:#066847;
+    background-color: #066847;
     background-size: cover;
-    background-position: center 100%; 
+    background-position: center 100%;
     padding-top: 10%;
   }
 
@@ -133,7 +132,7 @@
   .review1 {
     background-image: url(../images/review.jpg);
     background-size: cover;
-    width: 300px; 
+    width: 300px;
     height: 300px;
     box-shadow: none !important;
   }
@@ -156,82 +155,80 @@
   }
 
   .quote {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 18pt;
     font-size: 14pt;
-    -webkit-transform:translate(0, 1000%);
-    transform:translate(0%, -15%);
-    color: white;
-  }
-
-  .quote2 {
-    font-family: 'Raleway', sans-serif;
-    line-height: 18pt;
-    font-size: 14pt;
-    -webkit-transform:translate(0, 1000%);
+    -webkit-transform: translate(0, 1000%);
     transform: translate(0%, -15%);
     color: white;
   }
 
+  .quote2 {
+    font-family: "Raleway", sans-serif;
+    line-height: 18pt;
+    font-size: 14pt;
+    -webkit-transform: translate(0, 1000%);
+    transform: translate(0%, -15%);
+    color: white;
+  }
 
   /*Clinic Images*/
   .ws-bg21 {
     height: 350px;
-    background-position: center left 20%; 
+    background-position: center left 20%;
   }
 
   .ws-bg22 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 100%;
   }
 
   .ws-bg23 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 100%;
   }
 
   .ws-bg24 {
     height: 350px;
-    background-position: center 50%; 
+    background-position: center 50%;
   }
 
   .ws-bg25 {
     height: 350px;
-    background-position: center 50%; 
+    background-position: center 50%;
   }
 
   .ws-bg26 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 100%;
   }
 
   .ws-bg27 {
     height: 350px;
-    background-position: center 20%; 
+    background-position: center 20%;
   }
 
   .ws-bg28 {
     height: 350px;
-    background-position: center 50%; 
+    background-position: center 50%;
   }
 
   .ws-bg29 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 100%;
   }
-  
+
   .ws-bg30 {
     height: 350px;
-    background-position: center 50%; 
+    background-position: center 50%;
   }
 
   .ws-bg31 {
     height: 350px;
-    background-position: center 100%; 
+    background-position: center 100%;
   }
-  
+
   /*Contact Us*/
-   
 
   #side-nav {
     display: none;
@@ -307,81 +304,93 @@
 @media screen and (max-width: 768px) {
   .ws-bg912 {
     background-image: url(../images/covidwt.jpg);
+    padding: 0;
+    margin: 0;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center left 5%;
-    width: auto;
-    height: 300px;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .carousel-bg2,
+  .carousel-bg3,
+  .carousel-bg4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 }
 
 /* CONTACT FORM  */
 
 .contact-section {
-width: 100%;
-max-width: 40rem;
-margin-left: auto;
-margin-right: auto;
-padding: 3rem 1rem;
+  width: 100%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1rem;
 }
 
 .contact-intro > * + * {
-margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .contact-title {
-font-size: 1.875rem;
-line-height: 2.25rem;
-font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
 }
 
 .contact-description {
-color: rgb(107 114 128);
-text-align: center;
+  color: rgb(107 114 128);
+  text-align: center;
 }
 
 .form-group-container {
-display: grid;
-gap: 1rem;
-margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .form-group {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-label {
-color: rgb(107 114 128);
-margin-bottom: 0.5rem;
-font-size: 0.75rem;
+  color: rgb(107 114 128);
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
 }
 
 .form-input,
 .form-textarea {
-padding: 0.5rem;
-border: 1px solid #e5e7eb;
-display: flex;
-height: 2.5rem;
-width: 100%;
-border-radius: 0.375rem;
-font-size: 0.875rem;
-line-height: 1.25rem;
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .form-input::placeholder,
 .form-textarea:focus-visible {
-color: #6b7280;
+  color: #6b7280;
 }
 
 .form-input:focus-visible,
 .form-textarea:focus-visible {
-outline: 2px solid #2563eb;
-outline-offset: 2px;
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
 
 .form-textarea {
-min-height: 120px;
+  min-height: 120px;
 }
 
 .form-submit {
@@ -391,20 +400,20 @@ min-height: 120px;
   color: #333;
   padding: 13px 5px;
   border-radius: 0.2rem;
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s;
 }
 
 .form-submit:hover {
-  background-color: #0f9c98; 
+  background-color: #0f9c98;
 }
 
-.form-group select  {
+.form-group select {
   background-color: #12bebb8a;
   color: #333;
-  padding: 20px; 
-  transition: background-color 0.3s
+  padding: 20px;
+  transition: background-color 0.3s;
 }
 
 .form-group select:hover {
-  background-color: #0f9c98 ; 
+  background-color: #0f9c98;
 }
