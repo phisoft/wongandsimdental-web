@@ -245,7 +245,7 @@ html {
   padding: 27.2px;
   padding-bottom: 1em;
   padding-top: 3em;
-  background-color: #4A94A6;
+  background-color: #12beba;
 }
 
 .ws-services-item3 {
@@ -1440,7 +1440,7 @@ p9 {
 
 .ht-gradation.style-01 .item:hover .circle {
   color: #ffffff;
-  background: #4a94a6;
+  background: #12beba;
 }
 
 .circle2 {
@@ -1573,7 +1573,7 @@ p9 {
 }
 
 .ht-gradation.style-01 .gradation-btn:hover {
-  color: #4a94a6;
+  color: #12beba;
 }
 
 .first-title {
@@ -1645,7 +1645,7 @@ p9 {
     background-image: url('../images/dentalMobile.jpg'); /* Mobile image for Dental Smile */
     background-size: auto;
     background-position: center 20%;
-    height: 300px; 
+    height: 320px; 
     padding-top: 5px;
 }
 
@@ -1653,7 +1653,7 @@ p9 {
     background-image: url('../images/smileMobile.jpg'); /* Mobile image for Smile Makeover */
     background-size: auto;
     background-position: center 20%;
-    height: 300px; 
+    height: 320px; 
     padding-top: 5px;
 }
   .ht-gradation.style-01 {
@@ -1769,7 +1769,7 @@ p9 {
   .ws-services-item2-content {
     padding: 2em;
     padding-top: 0em;
-    background-color: #4a94a6;
+    background-color: #12beba;
     text-align: left;
   }
   .ws-services-item3-content {

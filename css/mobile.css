@@ -302,25 +302,48 @@
 /* Tablet version */
 
 @media screen and (max-width: 768px) {
+  /* Background container */
   .ws-bg912 {
     background-image: url(../images/covidwt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Fill the viewport */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    
+    /* Reset any padding or margins */
     padding: 0;
     margin: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vh;
-    height: 100vh;
+    
+    /* Prevent overflow */
     overflow: hidden;
+    position: relative;
+  }
+  
+  /* Reset html and body margins */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures body stretches to the viewport height */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    box-sizing: border-box;
   }
 
-  .carousel-bg2,
-  .carousel-bg3,
-  .carousel-bg4 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  /* Main container styling to fill viewport */
+#main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+  
+  /* Make sure inner content aligns to the viewport */
+  .ws-bg912 > * {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    z-index: 1;
   }
 }
 
