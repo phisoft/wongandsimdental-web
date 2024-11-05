@@ -288,7 +288,12 @@
   }
 
   .carousel-caption {
-    margin-right: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important; /* Add padding for better alignment */
+    text-align: center !important; /* Center align text */
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    font-size: 1em !important; /* Adjust font size for readability on small screens */
+    line-height: 1.3 !important; /* Line height adjustment for better readability */
   }
 }
 
@@ -299,8 +304,7 @@
   }
 }
 
-/* Tablet version */
-
+/*/* Tablet version */
 @media screen and (max-width: 768px) {
   /* Background container */
   .ws-bg912 {
@@ -308,22 +312,23 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     /* Fill the viewport */
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    
+
     /* Reset any padding or margins */
     padding: 0;
     margin: 0;
-    
+
     /* Prevent overflow */
     overflow: hidden;
     position: relative;
   }
-  
+
   /* Reset html and body margins */
-  html, body {
+  html,
+  body {
     margin: 0;
     padding: 0;
     height: 100%; /* Ensures body stretches to the viewport height */
@@ -332,18 +337,29 @@
   }
 
   /* Main container styling to fill viewport */
-#main-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Full viewport height */
-}
-  
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+
   /* Make sure inner content aligns to the viewport */
   .ws-bg912 > * {
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
     position: relative;
     z-index: 1;
+  }
+
+  /* Carousel caption styling for tablet */
+  .carousel-caption {
+    margin: 0 auto !important;
+    padding: 0 30px !important; /* Padding for spacing on tablet */
+    text-align: center !important; /* Center-align the text */
+    max-width: 85%; /* Restrict width for better readability */
+    font-size: 1.1em !important; /* Adjust font size for tablet screens */
+    line-height: 1.4 !important; /* Improve line spacing */
+    color: #ffffff; /* Optional: make text color white for better contrast */
   }
 }
 
