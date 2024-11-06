@@ -224,32 +224,71 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  function updateDoctors() {
-    var branchSelect = document.getElementById("branch");
-    var doctorSelect = document.getElementById("doctor");
-    var doctors = {
-      "Pulau Tikus": ["Dr Brenda Sim", "Dr Gerviene Choo", "Dr Charlotte Hing", "Dr Vivian Tan"],
-      "Summerton": ["Dr Rachel Chan", "Dr Loo Chien Win", "Dr Vivian Tan", "Dr Kenneth Wong"]
-    };
+  document.addEventListener("DOMContentLoaded", function () {
+  populateDoctors(); // Populate the doctor dropdown with all doctors on page load
+});
 
-    var selectedBranch = branchSelect.value;
-    doctorSelect.innerHTML = "";
+function populateDoctors(doctorsToShow) {
+  var doctorSelect = document.getElementById("doctor");
+  
+  // Full list of doctors
+  var allDoctors = [
+    { name: "Dr Brenda Sim", branch: "" },
+    { name: "Dr Kenneth Wong", branch: "" },
+    { name: "Dr Gerviene Choo (Pulau Tikus)", branch: "Pulau Tikus" },
+    { name: "Dr Loo Chien Win (Summerton)", branch: "Summerton" },
+    { name: "Dr Rachel Chan Choon Keow (Summerton)", branch: "Summerton" },
+    { name: "Dr Vivian Tan (Pulau Tikus & Summerton)", branch: "Pulau Tikus & Summerton" },
+    { name: "Dr Charlotte Hing (Pulau Tikus)", branch: "Pulau Tikus" }
+  ];
 
-    if (selectedBranch) {
-      var branchDoctors = doctors[selectedBranch];
-      for (var i = 0; i < branchDoctors.length; i++) {
-        var option = document.createElement("option");
-        option.text = branchDoctors[i];
-        doctorSelect.add(option);
-      }
-    } else {
-      var defaultOption = document.createElement("option");
-      defaultOption.text = "Select a doctor";
-      defaultOption.disabled = true;
-      defaultOption.selected = true;
-      doctorSelect.add(defaultOption);
-    }
+  // If doctorsToShow is provided, use it, otherwise show all doctors
+  var doctors = doctorsToShow || allDoctors;
+
+  // Clear previous options
+  doctorSelect.innerHTML = "";
+
+  // Default "Select a doctor" option
+  var defaultOption = document.createElement("option");
+  defaultOption.text = "Select a doctor";
+  defaultOption.disabled = true;
+  defaultOption.selected = true;
+  doctorSelect.add(defaultOption);
+
+  // Populate the doctor dropdown
+  doctors.forEach(function (doctor) {
+    var option = document.createElement("option");
+    option.text = doctor.name;
+    doctorSelect.add(option);
+  });
+}
+
+function filterDoctorsByBranch() {
+  var branchSelect = document.getElementById("branch").value;
+  
+  // Filter doctors based on branch selection
+  var filteredDoctors;
+  if (branchSelect === "Pulau Tikus") {
+    filteredDoctors = [
+      { name: "Dr Brenda Sim" },
+      { name: "Dr Gerviene Choo (Pulau Tikus)" },
+      { name: "Dr Vivian Tan (Pulau Tikus & Summerton)" },
+      { name: "Dr Charlotte Hing (Pulau Tikus)" }
+    ];
+  } else if (branchSelect === "Summerton") {
+    filteredDoctors = [
+      { name: "Dr Kenneth Wong" },
+      { name: "Dr Loo Chien Win (Summerton)" },
+      { name: "Dr Rachel Chan Choon Keow (Summerton)" },
+      { name: "Dr Vivian Tan (Pulau Tikus & Summerton)" }
+    ];
+  } else {
+    // If no branch or "Select a branch", show all doctors
+    filteredDoctors = null;
   }
+  
+  populateDoctors(filteredDoctors);
+}
   
   $(function () {
       $("#navbar").load("navbar.html");
