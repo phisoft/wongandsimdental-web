@@ -14,7 +14,21 @@
     <link rel="stylesheet" href="css/mobile.css" />
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+   
 </head>
+<style>
+.checklist {
+    padding-left: 0; /* Remove additional padding on the list */
+    list-style-position: inside; /* Move numbering inside the padding */
+    margin-left: 0; /* Remove extra left margin */
+}
+
+.checklist li {
+    margin-bottom: 8px; /* Maintain spacing between items */
+    line-height: 1.6; /* Improve readability */
+}
+
+</style>
 
 <body>
     <div class="d-flex flex-row" id="main-container">
@@ -320,7 +334,7 @@
                                                         such as symmetry and the ideal shape and size of teeth. 
                                                         However, our cosmetic dentist has an extraordinary checklist of factors to consider when designing your new smile:</p>
                                                     
-                                                    <ol>
+                                                    <ol class="checklist">
                                                         <li>Smile symmetry</li>
                                                         <li>Shape of teeth</li>
                                                         <li>Size of teeth</li>
