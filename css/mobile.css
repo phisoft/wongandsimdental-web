@@ -159,7 +159,7 @@
     line-height: 18pt;
     font-size: 14pt;
     -webkit-transform: translate(0, 1000%);
-    transform: translate(0%, -15%);
+    transform: translate(0%, -16%);
     color: white;
   }
 
@@ -168,7 +168,7 @@
     line-height: 18pt;
     font-size: 14pt;
     -webkit-transform: translate(0, 1000%);
-    transform: translate(0%, -15%);
+    transform: translate(0%, -7%);
     color: white;
   }
 
@@ -314,7 +314,7 @@
     background-repeat: no-repeat;
 
     /* Fill the viewport */
-    width: 100vw; /* Full viewport width */
+    width: 100vw; 
     height: 100vh; /* Full viewport height */
 
     /* Reset any padding or margins */
@@ -455,4 +455,56 @@
 
 .form-group select:hover {
   background-color: #0f9c98;
+}
+
+/* Style for the dropdown containers */
+.form-group {
+  margin: 15px 0;
+}
+.form-label {
+  font-weight: bold;
+}
+
+/* Dropdown styling */
+.form-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #009688; /* Set your preferred background color */
+  color: #ffffff; /* Set text color to white */
+  border: none;
+  border-radius: 5px;
+  appearance: none; /* Remove default styling in certain browsers */
+}
+
+/* Dropdown arrow styling */
+.form-select::-ms-expand {
+  display: none; /* For Internet Explorer */
+}
+
+/* Add a custom arrow icon */
+.form-select {
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><polygon points="0,0 140,0 70,70" fill="%23ffffff"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  padding-right: 30px;
+}
+
+/* Hover effect */
+.form-select:hover {
+  background-color: #00796b;
+  color: #ffffff;
+}
+
+/* Focus effect */
+.form-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 150, 136, 0.5);
+}
+
+/* Dropdown option styling (may not work on all browsers) */
+.form-select option {
+  background-color: #6e7574;
+  color: #ffffff;
 }

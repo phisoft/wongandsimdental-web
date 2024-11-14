@@ -62,12 +62,13 @@
         </div>
         <div class="form-group">
           <label for="branch" class="form-label">SELECT A BRANCH (REQUIRED):</label>
-          <select id="branch" name="branch" class="form-select demo-input" onchange="updateDoctors()" required>
+          <select id="branch" name="branch" class="form-select demo-input" onchange="filterDoctorsByBranch()" required>
             <option value="" disabled selected>Select a branch</option>
             <option value="Pulau Tikus">Pulau Tikus</option>
             <option value="Summerton">Summerton</option>
           </select>
         </div>
+      
         <div class="form-group">
           <label for="doctor" class="form-label">SELECT A DOCTOR (REQUIRED):</label>
           <select id="doctor" name="doctor" class="form-select demo-input" required>
@@ -137,7 +138,7 @@
                <div class="carousel-item active carousel-bg6">
                 <div class="carousel-caption">
                   <div class="quote">
-                      <p10>What our patients say</p10><br>
+                      <p10>What our patients say</p10><br><br>
                     "We are impressed with the high quality treatment care we received. We will definitely be back and recommend to our friends."
                     <p class="cited"> <i>- Stephanie Froster</i></p></div>
                     <img class="greview" src="images/greviewslogo.png">
@@ -230,20 +231,8 @@
 
 function populateDoctors(doctorsToShow) {
   var doctorSelect = document.getElementById("doctor");
-  
-  // Full list of doctors
-  var allDoctors = [
-    { name: "Dr Brenda Sim", branch: "" },
-    { name: "Dr Kenneth Wong", branch: "" },
-    { name: "Dr Gerviene Choo", branch: "Pulau Tikus" },
-    { name: "Dr Loo Chien Win", branch: "Summerton" },
-    { name: "Dr Rachel Chan Choon Keow", branch: "Summerton" },
-    { name: "Dr Vivian Tan ", branch: "Pulau Tikus & Summerton" },
-    { name: "Dr Charlotte Hing ", branch: "Pulau Tikus" }
-  ];
-
   // If doctorsToShow is provided, use it, otherwise show all doctors
-  var doctors = doctorsToShow || allDoctors;
+  var doctors = doctorsToShow;
 
   // Clear previous options
   doctorSelect.innerHTML = "";
@@ -271,16 +260,18 @@ function filterDoctorsByBranch() {
   if (branchSelect === "Pulau Tikus") {
     filteredDoctors = [
       { name: "Dr Brenda Sim" },
-      { name: "Dr Gerviene Choo (Pulau Tikus)" },
-      { name: "Dr Vivian Tan (Pulau Tikus & Summerton)" },
-      { name: "Dr Charlotte Hing (Pulau Tikus)" }
+      { name: "Dr Kenneth Wong" },
+      { name: "Dr Gerviene Choo" },
+      { name: "Dr Vivian Tan" },
+      { name: "Dr Charlotte Hing" }
     ];
   } else if (branchSelect === "Summerton") {
     filteredDoctors = [
+      { name: "Dr Brenda Sim" },
       { name: "Dr Kenneth Wong" },
-      { name: "Dr Loo Chien Win (Summerton)" },
-      { name: "Dr Rachel Chan Choon Keow (Summerton)" },
-      { name: "Dr Vivian Tan (Pulau Tikus & Summerton)" }
+      { name: "Dr Loo Chien Win" },
+      { name: "Dr Rachel Chan Choon Keow" },
+      { name: "Dr Vivian Tan" }
     ];
   } else {
     // If no branch or "Select a branch", show all doctors
