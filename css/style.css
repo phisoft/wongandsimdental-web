@@ -807,11 +807,21 @@ h2 {
   transform: translate(-310%, -55%);
 }
 
+/* Default styling for desktop */
 p10 {
   font-size: 18pt;
-  padding-bottom: 6px;
-  border-bottom: 2px solid cyan;
+  padding-bottom: 0px;
+  /* border-bottom: 1px solid cyan; */
 }
+
+/* Adjust styling for mobile view */
+@media (max-width: 768px) {
+  p10 {
+    font-size: 16pt; /* Adjust font size to fit on one line */
+    white-space: nowrap; /* Prevent line break */
+  }
+}
+
 
 p9 {
   font-size: 18pt;

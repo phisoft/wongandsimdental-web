@@ -159,7 +159,7 @@
     line-height: 18pt;
     font-size: 14pt;
     -webkit-transform: translate(0, 1000%);
-    transform: translate(0%, -15%);
+    transform: translate(0%, -20%);
     color: white;
   }
 
@@ -168,7 +168,7 @@
     line-height: 18pt;
     font-size: 14pt;
     -webkit-transform: translate(0, 1000%);
-    transform: translate(0%, -15%);
+    transform: translate(0%, -7%);
     color: white;
   }
 
