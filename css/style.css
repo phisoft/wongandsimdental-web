@@ -154,7 +154,6 @@ html {
 }
 .ws-team3 {
   min-height: 500px;
-  width: 380px;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../images/ourteam.jpg);
@@ -425,7 +424,6 @@ html {
 
 .ws-bg6 {
   color: white;
-  width: 390px;
   height: 500px;
   background-image: url(../images/wong&sim/generaldentistry.jpg);
   background-size: cover;
