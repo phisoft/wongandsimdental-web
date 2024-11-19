@@ -31,6 +31,7 @@ html {
   padding: 0em;
   min-height: 100vh;
   background-color: #fefefe;
+  width: 100% !important;
 }
 
 #side-nav ul {
