@@ -91,9 +91,8 @@ html {
 }
 
 .container-fluid {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
 }
 
 .ws-purpose-item {
