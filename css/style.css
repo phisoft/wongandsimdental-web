@@ -91,7 +91,6 @@ html {
 }
 
 .ws-side-info {
-  position:absolute;
   margin-top: 10px;
 }
 
@@ -2174,12 +2173,6 @@ html {
 
 .navbar {
   display: none;
-}
-
-.ws-side-info {
-  position:absolute;
-  margin-top: 10px;
-
 }
 
 .ws-side-info i {
