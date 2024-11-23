@@ -2039,9 +2039,8 @@ p9 {
   font-weight: bold;
 }
 
-.card-text {
+.ht-gradation.style-01 .card-text {
   font-size: 20px;
-  color: #6c757d;
 }
 
 @media only screen and (max-width: 768px) {
