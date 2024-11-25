@@ -974,7 +974,7 @@ h2 {
 p10 {
   font-size: 18pt;
   padding-bottom: 6px;
-  border-bottom: 2px solid cyan;
+
 }
 
 p9 {
@@ -2918,7 +2918,6 @@ h2 {
 p10 {
   font-size: 18pt;
   padding-bottom: 0px;
-  /* border-bottom: 1px solid cyan; */
 }
 
 /* Adjust styling for mobile view */
