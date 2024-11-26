@@ -1682,22 +1682,10 @@ p9 {
     padding: 10px 0 15px 20px;
   }
 
-  /* .ws-service1 {
-    min-height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 20%;
-  } */
-
-
   .ws-service1 h1 {
     font-weight: bold;
-    /* font-size: 36px; */
     color: white;
     z-index: 1;
-    /* margin-left: 20px; */
-    /* margin-bottom: 30px; */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
 
   .ws-service1::before {
