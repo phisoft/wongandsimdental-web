@@ -3170,3 +3170,7 @@ p9 {
     outline: 0;
   }
 }
+
+.text-black {
+  color: #000;
+}
