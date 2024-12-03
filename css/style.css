@@ -152,6 +152,8 @@ html {
   margin-top: 30px;
   width: 200px;
   border-radius: 0.5em;
+  border: none;
+  outline: none; 
 }
 
 .ws-button:hover {
@@ -2198,22 +2200,6 @@ html {
   min-height: 280px;
   max-height: 314px;
   background-color: #e9e9e9;
-}
-
-.ws-button {
-  display: block;
-  padding: 0.5em;
-  color: white;
-  background-color: #26beb9;
-  text-decoration: none;
-  margin: auto;
-  margin-top: 30px;
-  width: 200px;
-  border-radius: 0.5em;
-}
-
-.ws-button:hover {
-  text-decoration: none;
 }
 
 .ws-promise {
