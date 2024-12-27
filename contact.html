@@ -45,9 +45,12 @@
         Fill out the form below and we'll get back to you as soon as possible.
       </p>
     </div>
-  
-    <form class="contact-form" onsubmit="sendEmail(); return false;">
+
+    <form id="contact-form" action="https://send.bah.my/d29uZ2FuZHNpbWRlbnRhbHN1cmdlcnlAZ21haWwuY29t" enctype="application/x-www-form-urlencoded" method="POST">
       <div class="form-group-container">
+        <div class="form-group">
+          <input name="subject" id="subject" value="Contact Us Form" type="hidden" />
+        </div>
         <div class="form-group">
           <label for="name" class="form-label">NAME (REQUIRED):</label>
           <input id="name" name="name" class="form-input demo-input" placeholder="Your name" type="text" required />
@@ -68,7 +71,6 @@
             <option value="Summerton">Summerton</option>
           </select>
         </div>
-      
         <div class="form-group">
           <label for="doctor" class="form-label">SELECT A DOCTOR (REQUIRED):</label>
           <select id="doctor" name="doctor" class="form-select demo-input" required>
@@ -80,7 +82,7 @@
           <textarea class="form-textarea demo-input" id="message" name="message" placeholder="Your message" required></textarea>
         </div>
       </div>
-      <button class="form-submit" onclick="sendEmail();" type="button">Send Message</button>
+      <button class="form-submit" type="submit">Send Message</button>
     </form>
   </section>
   </div>
@@ -285,39 +287,6 @@ function filterDoctorsByBranch() {
       $("#navbar").load("navbar.html");
       $("#side-nav").load("side-nav.html");
     });
-  function sendEmail() {
-    if (validateForm()) {
-      Email.send({
-        SecureToken : "a290ab1a-5791-4941-be8d-51347f51ffa1",
-        To: 'wongandsimdentalsurgery@gmail.com',
-        From: "contactform.appsubmission@gmail.com",
-        Subject: "Wong & Sim Dental Surgery Contact Form Submission",
-        Body: "Name: " + document.getElementById("name").value +
-          "<br> Phone Number: " + document.getElementById("phone").value +
-          "<br> Email: " + document.getElementById("email").value +
-          "<br> Company Name: " + document.getElementById("branch").value +
-          "<br> Company Name: " + document.getElementById("doctor").value +
-          "<br> Message: " + document.getElementById("message").value
-      }).then(
-        message => alert("Message successfully sent.")
-      );
-    } else {
-      alert("Please fill in all required fields.");
-    }
-  }
-  function validateForm() {
-    var isValid = true;
-    var inputs = document.getElementsByClassName('demo-input');
-    for (var i = 0; i < inputs.length; i++) {
-      if (!inputs[i].value) {
-        isValid = false;
-        inputs[i].classList.add('is-invalid');
-      } else {
-        inputs[i].classList.remove('is-invalid');
-      }
-    }
-    return isValid;
-  }
 </script>
 </body>
 </html>
