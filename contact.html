@@ -287,39 +287,6 @@ function filterDoctorsByBranch() {
       $("#navbar").load("navbar.html");
       $("#side-nav").load("side-nav.html");
     });
-  function sendEmail() {
-    if (validateForm()) {
-      Email.send({
-        SecureToken : "a290ab1a-5791-4941-be8d-51347f51ffa1",
-        To: 'wongandsimdentalsurgery@gmail.com',
-        From: "contactform.appsubmission@gmail.com",
-        Subject: "Wong & Sim Dental Surgery Contact Form Submission",
-        Body: "Name: " + document.getElementById("name").value +
-          "<br> Phone Number: " + document.getElementById("phone").value +
-          "<br> Email: " + document.getElementById("email").value +
-          "<br> Company Name: " + document.getElementById("branch").value +
-          "<br> Company Name: " + document.getElementById("doctor").value +
-          "<br> Message: " + document.getElementById("message").value
-      }).then(
-        message => alert("Message successfully sent.")
-      );
-    } else {
-      alert("Please fill in all required fields.");
-    }
-  }
-  function validateForm() {
-    var isValid = true;
-    var inputs = document.getElementsByClassName('demo-input');
-    for (var i = 0; i < inputs.length; i++) {
-      if (!inputs[i].value) {
-        isValid = false;
-        inputs[i].classList.add('is-invalid');
-      } else {
-        inputs[i].classList.remove('is-invalid');
-      }
-    }
-    return isValid;
-  }
 </script>
 </body>
 </html>
