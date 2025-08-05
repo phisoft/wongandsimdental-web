@@ -1186,6 +1186,20 @@ p9 {
   background-color: #00e676;
 }
 
+.whatsapp-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whatsapp-caption {
+  background-color: #E3DDD3;
+  padding: 8px 11px;
+  border-radius: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
 @media screen and (min-width: 1280px) {
   .ws-bg912 {
     background-image: url(../images/covidwt.jpg);
