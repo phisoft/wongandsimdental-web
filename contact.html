@@ -244,6 +244,20 @@ function populateDoctors(doctorsToShow) {
   var doctorSelect = document.getElementById("doctor");
   // If doctorsToShow is provided, use it, otherwise show all doctors
   var doctors = doctorsToShow;
+  
+  if (!doctors) {
+    doctors = [
+      { name: "Dr Brenda Sim" },
+      { name: "Dr Kenneth Wong" },
+      { name: "Dr Gerviene Choo" },
+      { name: "Dr Vivian Tan" },
+      { name: "Dr Charlotte Hing" },
+      { name: "Dr Ng Wei Liang" },
+      { name: "Dr Jasmine Hun" },
+      { name: "Dr Loo Chien Win" },
+      { name: "Dr Rachel Chan Choon Keow" }
+    ];
+  }
 
   // Clear previous options
   doctorSelect.innerHTML = "";
