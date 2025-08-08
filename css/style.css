@@ -206,7 +206,7 @@ html {
 
 /* Smile Makeover Banner */
 .smile-makeover-banner {
-  background-image: url('../images/smileWeb.jpg'); 
+  background-image: url('../images/smileWeb.JPEG'); 
   min-height: 300px;
 }
 
@@ -1681,7 +1681,7 @@ p9 {
 }
 
   .smile-makeover-banner {
-    background-image: url('../images/smileMobile.jpg'); /* Mobile image for Smile Makeover */
+    background-image: url('../images/smileMobile.JPEG'); /* Mobile image for Smile Makeover */
     background-size: cover !important;
     background-position: bottom !important;
     height: 320px; 
