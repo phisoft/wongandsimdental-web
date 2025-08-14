@@ -200,6 +200,30 @@
                     </div>
                 </div>
             </div>
+            <!-- Video Section -->
+            <div class="video-section fade-in">
+                <div class="container">
+                    <h1 class="video-title text-bold fs-30 animated fadeIn wow" data-wow-delay="0.4s">Patient Experience Stories</h1>
+                    <p class="video-subtitle">Real stories, real smiles – watch how we transform confidence through dentistry.</p>
+                    <div class="video-wrapper">
+                        <div class="video-card">
+                            <video controls playsinline muted loop>
+                                <source src="images/wong&sim/videos/video1.mp4?v=1" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-card">
+                            <video controls playsinline muted loop>
+                                    <source src="images/wong&sim/videos/video2.mp4?v=2" type="video/mp4">
+                                </video>
+                            </div>
+                        <div class="video-card">
+                            <video controls playsinline muted loop>
+                                <source src="images/wong&sim/videos/video3.mp4?v=2" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="smile-container">
                 <div class="container service-wrap service-bg">
@@ -593,6 +617,23 @@
             $("#navbar").load("navbar.html");
             $("#side-nav").load("side-nav.html");
         });
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const videos = document.querySelectorAll(".video-card video");
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.play();
+                } else {
+                    entry.target.pause();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        videos.forEach(video => observer.observe(video));
+    });
     </script>
 
 </body>
