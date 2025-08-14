@@ -1652,6 +1652,39 @@ p9 {
   color: #12beba;
 }
 
+.step-number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e0dcd8;
+    color: #7a726d;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+}
+.step-container .circle-wrap {
+    margin-right: 1.5rem; 
+}
+.ht-gradation.style-01 .item:hover .step-number {
+    background-color: #26beb9;
+    color: #fff;
+}
+.step-title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.step-desc {
+    text-align: left;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
 .first-title {
   font-size: 7.5vh;
 }
