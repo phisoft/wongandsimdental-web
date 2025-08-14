@@ -1430,6 +1430,52 @@ p9 {
 .color-circle {
   color: #086ad8;
 }
+.video-section {
+    padding: 60px 0;
+    background: #faf8f4;
+    text-align: center;
+}
+
+.video-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #006d77;
+    margin-bottom: 10px;
+}
+
+.video-subtitle {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 270px; 
+}
+
+.video-card video {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    background: #000;    
+}
+.video-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
 
 .ht-gradation.style-01 {
   display: -webkit-box;
