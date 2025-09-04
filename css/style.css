@@ -2209,29 +2209,6 @@ p9 {
   display: block;
 }
 
-.before-text,
-.after-text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #26BEB9;
-  color: #fff;
-  font-size: 16px;
-  text-align: center;
-  padding: 6px 0;
-  width: 50%;
-  border-radius: 20px;
-  text-transform: uppercase;
-}
-
-.before-text {
-  top: -18px;
-}
-
-.after-text {
-  bottom: -18px;
-}
-
 /* html */
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
