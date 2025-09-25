@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title> Wong and Sim Dental Penang - Dentist Penang </title>
   <link rel="icon" href="images/wong.png" type="image/x-icon" />
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -14,305 +16,247 @@
   <script src="js/jquery-3.4.1.slim.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<header></header>
-<div class="d-flex flex-row" id="main-container">
-<div id="side-nav"></div>
-<div id="content-container">
-<!-- navbar -->
-<div id="navbar"></div>
-<!-- /navbar -->
-<!-- contact us -->
-<a name="contact" />
-<a name="clinic" />
+  <header></header>
+  <div class="d-flex flex-row" id="main-container">
+    <div id="side-nav"></div>
+    <div id="content-container">
+      <!-- navbar -->
+      <div id="navbar"></div>
+      <!-- /navbar -->
+      <!-- contact us -->
+      <a name="contact">
+      <a name="clinic">
 
-<section class="wongandsim-dental"></section>
+      <section class="wongandsim-dental"></section>
 
-<div class="container-fluid">
-  <div class="ws-contact">
-    <h3> GET IN TOUCH</h3>
-    Smile. We're here to help. <br/><br/>
-    <p class="fade-in">Not been to the dentist for a while?
-        Many people avoid visiting the dentist for as long as possible due to their fear - which may have stemmed from previous issues at a dentist’s office.</p>
-    <a href="mailto:wongandsimdentalsurgery@gmail.com"><i class="fa fa-envelope-o fade-in"></i></a>
-    <a href="https://www.facebook.com/wongandsimdental/"><i class="fa fa-facebook-official fade-in"></i></a>
-    <a href="https://instagram.com/wongandsimdental"><i class="fa fa-instagram fade-in"></i></a>
-  </div>
+      <div class="container-fluid">
+        <div class="ws-contact">
+          <h3> GET IN TOUCH</h3>
+          Smile. We're here to help. <br /><br />
+          <p class="fade-in">Not been to the dentist for a while?
+            Many people avoid visiting the dentist for as long as possible due to their fear - which may have stemmed
+            from previous issues at a dentist’s office.</p>
+          <a href="mailto:wongandsimdentalsurgery@gmail.com"><i class="fa fa-envelope-o fade-in"></i></a>
+          <a href="https://www.facebook.com/wongandsimdental/"><i class="fa fa-facebook-official fade-in"></i></a>
+          <a href="https://instagram.com/wongandsimdental"><i class="fa fa-instagram fade-in"></i></a>
+        </div>
 
-  <!-- CONTACT FORM -->
-  <section class="contact-section">
-    <div class="contact-intro">
-      <p class="contact-description">
-        Fill out the form below and we'll get back to you as soon as possible.
-      </p>
-    </div>
+        <!-- CONTACT FORM -->
+        <section class="contact-section">
+          <div class="contact-intro">
+            <p class="contact-description">
+              Fill out the form below and we'll get back to you as soon as possible.
+            </p>
+          </div>
 
-    <form id="contact-form" action="https://send.bah.my/d29uZ2FuZHNpbWRlbnRhbHN1cmdlcnlAZ21haWwuY29t" enctype="application/x-www-form-urlencoded" method="POST">
-      <div class="form-group-container">
-        <div class="form-group">
-          <input name="subject" id="subject" value="Contact Us Form" type="hidden" />
-        </div>
-        <div class="form-group">
-          <label for="name" class="form-label">NAME (REQUIRED):</label>
-          <input id="name" name="name" class="form-input demo-input" placeholder="Your name" type="text" required />
-        </div>
-        <div class="form-group">
-          <label for="phone" class="form-label">PHONE NUMBER (REQUIRED):</label>
-          <input id="phone" name="phone" class="form-input demo-input" placeholder="+60 123 567890" type="text" required/>
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">EMAIL (REQUIRED):</label>
-          <input id="email" name="email" class="form-input demo-input" placeholder="Your email" type="email" required />
-        </div>
-        <div class="form-group">
-          <label for="branch" class="form-label">SELECT A BRANCH (REQUIRED):</label>
-          <select id="branch" name="branch" class="form-select demo-input" onchange="filterDoctorsByBranch()" required>
-            <option value="" disabled selected>Select a branch</option>
-            <option value="Pulau Tikus">Pulau Tikus</option>
-            <option value="Summerton">Summerton</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="doctor" class="form-label">SELECT A DOCTOR (REQUIRED):</label>
-          <select id="doctor" name="doctor" class="form-select demo-input" required>
-            <option value="" disabled selected>Select a doctor</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">MESSAGE (REQUIRED):</label>
-          <textarea class="form-textarea demo-input" id="message" name="message" placeholder="Your message" required></textarea>
-        </div>
+          <form id="contact-form" action="https://send.bah.my/d29uZ2FuZHNpbWRlbnRhbHN1cmdlcnlAZ21haWwuY29t"
+            enctype="application/x-www-form-urlencoded" method="POST">
+            <div class="form-group-container">
+              <div class="form-group">
+                <input name="subject" id="subject" value="Contact Us Form" type="hidden" />
+              </div>
+              <div class="form-group">
+                <label for="name" class="form-label">NAME (REQUIRED):</label>
+                <input id="name" name="name" class="form-input demo-input" placeholder="Your name" type="text"
+                  required />
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label">PHONE NUMBER (REQUIRED):</label>
+                <input id="phone" name="phone" class="form-input demo-input" placeholder="+60 123 567890" type="text"
+                  required />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">EMAIL (REQUIRED):</label>
+                <input id="email" name="email" class="form-input demo-input" placeholder="Your email" type="email"
+                  required />
+              </div>
+              <div class="form-group">
+                <label for="branch" class="form-label">SELECT A BRANCH (REQUIRED):</label>
+                <select id="branch" name="branch" class="form-select demo-input" onchange="filterDoctorsByBranch()"
+                  required>
+                  <option value="" disabled selected>Select a branch</option>
+                  <option value="Pulau Tikus">Pulau Tikus</option>
+                  <option value="Summerton">Summerton</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="doctor" class="form-label">SELECT A DOCTOR (REQUIRED):</label>
+                <select id="doctor" name="doctor" class="form-select demo-input" required>
+                  <option value="" disabled selected>Select a doctor</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">MESSAGE (REQUIRED):</label>
+                <textarea class="form-textarea demo-input" id="message" name="message" placeholder="Your message"
+                  required></textarea>
+              </div>
+            </div>
+            <button class="form-submit" type="submit">Send Message</button>
+          </form>
+        </section>
       </div>
-      <button class="form-submit" type="submit">Send Message</button>
-    </form>
-  </section>
-  </div>
 
-    <div class="ws-banner fade-in">
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-            </ol>
-            <div class="contact-carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item carousel-bg9">
-               <!-- <center><div class="review1">
-
-                </div> -->
-               <div class="carousel-caption">
-                  <div class="quote">
-                    <p10>What our patients say</p10><br><br>
-                    "Got my old porcelain veeners and crowns changed. The execution of the treatments here are commendable. Modern, clean practice and friendly staffs!"
-                  
-                  <p class="cited"><i>- Carsten Jung</i></p></div>
-                  <img class="greview" src="images/greviewslogo.png">
+      <div class="ws-banner fade-in">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 ws-contact-item ws-bgg1">
+              <div class="fade-in">
+                <h3 class="loc-pad">SUMMERTON, BAYAN LEPAS</h3>
+                <div class="ws-contact-grid">
+                  <div class="loc-pad"><i class="fa fa-map-marker"></i> </div>
+                  <div>
+                    110-02-26 Summerton, Persiaran Bayan Indah 11900 Pulau Pinang
+                  </div>
+                  <div class="loc-pad"><i class="fa fa-mobile-phone"></i></div>
+                  <div> 04-3763770 </div>
+                  <div class="loc-pad"> <i class="fa fa-phone"></i></div>
+                  <div> 012-3073770 </div>
+                  <div class="loc-pad"><i class="fa fa-clock-o"></i></div>
+                  <div>
+                    Monday : 10:00 - 17:30 <br />
+                    Tuesday : 10:00 - 19:00 <br />
+                    Wednesday : 10:00 - 17:30 <br />
+                    Thursday : 10:00 - 17:30 <br />
+                    Friday : 10:00 - 19:00 <br />
+                    Saturday : 10:00 - 17:30 <br />
+                    Sunday : 10:00 - 17:30
+                  </div>
                 </div>
               </div>
-    
-              <div class="carousel-item carousel-bg7">
-                <div class="carousel-caption">
-                  <div class="quote2">
-                      <p10>What our patients say</p10><br><br>
-                      "What a wonderful experience it has been. I was treated with so much warmth, care and sincerity. It was not only a painless experience with tooth filling but a memorable and happy experience."
-                      <p class="cited"><i>- Lena Lee</i></p></div>
-                      <img class="greview2" src="images/greviewslogo.png">
-                  </div>
-                </div> 
-    
-              <div class="carousel-item carousel-bg8">
-                <div class="carousel-caption">
-                    <div class="quote">
-                        <p10>What our patients say</p10><br><br>
-                      "You need to look after your teeth and Dr Brenda is the right person to see. With her good advice and dental technique you'll smile for the rest of your life, with nice pearl whites."
-                      <p class="cited"><i>- Pam Whitburn</i></p></div>
-                      <img class="greview" src="images/greviewslogo.png">
-                    </div>
-                </div>
-
-              <div class="carousel-item carousel-bg10">
-                  <div class="carousel-caption">
-                    <div class="quote">
-                        <p10>What our patients say</p10><br><br>
-                      "The dental services are fantastic. I have completed full mouth rehabilitation with dental implants and it brings my life to different horizon."
-                        <p class="cited"><i>- Khoo Boo Inn</i></p></div>
-                        <img class="greview" src="images/greviewslogo.png">
-                    </div>
-                  </div>
-
-               <div class="carousel-item active carousel-bg6">
-                <div class="carousel-caption">
-                  <div class="quote">
-                      <p10>What our patients say</p10><br><br>
-                    "We are impressed with the high quality treatment care we received. We will definitely be back and recommend to our friends."
-                    <p class="cited"> <i>- Stephanie Froster</i></p></div>
-                    <img class="greview" src="images/greviewslogo.png">
-                  </div>
-                </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-  </div>
-  </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 ws-contact-item ws-bgg1">
-        <div class="fade-in">
-          <h3 class="loc-pad">SUMMERTON, BAYAN LEPAS</h3>
-          <div class="ws-contact-grid">
-            <div class="loc-pad"><i class="fa fa-map-marker"></i> </div>
-            <div>
-              110-02-26 Summerton, Persiaran Bayan Indah 11900 Pulau Pinang
             </div>
-            <div class="loc-pad"><i class="fa fa-mobile-phone"></i></div>
-            <div> 04-3763770 </div>
-            <div class="loc-pad"> <i class="fa fa-phone"></i></div>
-            <div> 012-3073770 </div>
-            <div class="loc-pad"><i class="fa fa-clock-o"></i></div>
-            <div>
-              Monday : 10:00 - 17:30 <br/>
-              Tuesday : 10:00 - 19:00 <br/> 
-              Wednesday : 10:00 - 17:30 <br/>
-              Thursday : 10:00 - 17:30 <br/>
-              Friday : 10:00 - 19:00 <br/>
-              Saturday : 10:00 - 17:30 <br/>
-              Sunday :  10:00 - 17:30 
+            <div class="col-sm-6 ws-contact-item ws-bgg2">
+              <div class="fade-in">
+                <h3 class="loc-pad"> PULAU TIKUS, GEORGETOWN </h3>
+                <div class="ws-contact-grid">
+                  <div class="loc-pad"><i class="fa fa-map-marker"></i></div>
+                  <div>
+                    277, Jalan Burma, 10350 Georgetown, Penang <br /></div>
+                  <div class="loc-pad"><i class="fa fa-mobile-phone"></i></div>
+                  <div> 012-9690106 </div>
+                  <div class="loc-pad"><i class="fa fa-phone"></i></div>
+                  <div> 04-2286818 </div>
+                  <div class="loc-pad"><i class="fa fa-clock-o"></i></div>
+                  <div> Monday - Sunday: 09:00 - 17:30 <br />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 ws-contact-item ws-bgg2">
-        <div class="fade-in">
-          <h3 class="loc-pad"> PULAU TIKUS, GEORGETOWN </h3>
-          <div class="ws-contact-grid">
-          <div class="loc-pad"><i class="fa fa-map-marker"></i></div>
-          <div> 
-          277, Jalan Burma, 10350 Georgetown, Penang <br/></div>
-          <div class="loc-pad"><i class="fa fa-mobile-phone"></i></div>
-          <div> 012-9690106 </div>
-          <div class="loc-pad"><i class="fa fa-phone"></i></div>
-          <div> 04-2286818 </div>
-          <div class="loc-pad"><i class="fa fa-clock-o"></i></div>
-          <div> Monday - Sunday: 09:00 - 17:30 <br/>
-          </div>
-          </div>
+
+      <div class="sbuttons">
+        <a href="https://instagram.com/wongandsimdental" target="_blank" class="sbutton instagram"><i
+            class="fa fa-instagram my-float"></i></a>
+        <div class="whatsapp-group">
+          <a href="https://wa.me/60129690106" target="_blank" class="sbutton whatsapp"><i
+              class="fa fa-whatsapp my-float"></i></a>
+          <span class="whatsapp-caption">Pulau Tikus</span>
+        </div>
+        <div class="whatsapp-group">
+          <a href="https://wa.me/60123073770" target="_blank" class="sbutton whatsapp"><i
+              class="fa fa-whatsapp my-float"></i></a>
+          <span class="whatsapp-caption">Summerton</span>
         </div>
       </div>
+
+      <!-- Footer -->
+      <footer class="page-footer mt-3">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2024 Copyright:
+          <a class="footer-link" href="#">Wong & Sim Dental Surgery. All Rights Reserved.</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+      <!-- content end -->
     </div>
   </div>
-</div>
+  <script src="js/observers.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      populateDoctors(); // Populate the doctor dropdown with all doctors on page load
+    });
 
-<div class="sbuttons">
-  <a href="https://instagram.com/wongandsimdental" target="_blank" class="sbutton instagram"><i class="fa fa-instagram my-float"></i></a>
-  <div class="whatsapp-group">
-    <a href="https://wa.me/60129690106" target="_blank" class="sbutton whatsapp"><i class="fa fa-whatsapp my-float"></i></a>
-    <span class="whatsapp-caption">Pulau Tikus</span>
-  </div>
-  <div class="whatsapp-group">
-    <a href="https://wa.me/60123073770" target="_blank" class="sbutton whatsapp"><i class="fa fa-whatsapp my-float"></i></a>
-    <span class="whatsapp-caption">Summerton</span>
-  </div>
-</div>  
+    function populateDoctors(doctorsToShow) {
+      var doctorSelect = document.getElementById("doctor");
+      // If doctorsToShow is provided, use it, otherwise show all doctors
+      var doctors = doctorsToShow;
 
-<!-- Footer -->
-<footer class="page-footer mt-3">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2024 Copyright:
-    <a class="footer-link" href="#">Wong & Sim Dental Surgery. All Rights Reserved.</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+      if (!doctors) {
+        doctors = [
+          { name: "Dr Brenda Sim" },
+          { name: "Dr Kenneth Wong" },
+          { name: "Dr Gerviene Choo" },
+          { name: "Dr Vivian Tan" },
+          { name: "Dr Charlotte Hing" },
+          { name: "Dr Ng Wei Liang" },
+          { name: "Dr Jasmine Hun" },
+          { name: "Dr Loo Chien Win" },
+          { name: "Dr Rachel Chan Choon Keow" }
+        ];
+      }
 
-<!-- content end -->
-</div>
-</div>
-<script src="js/observers.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-  populateDoctors(); // Populate the doctor dropdown with all doctors on page load
-});
+      // Clear previous options
+      doctorSelect.innerHTML = "";
 
-function populateDoctors(doctorsToShow) {
-  var doctorSelect = document.getElementById("doctor");
-  // If doctorsToShow is provided, use it, otherwise show all doctors
-  var doctors = doctorsToShow;
-  
-  if (!doctors) {
-    doctors = [
-      { name: "Dr Brenda Sim" },
-      { name: "Dr Kenneth Wong" },
-      { name: "Dr Gerviene Choo" },
-      { name: "Dr Vivian Tan" },
-      { name: "Dr Charlotte Hing" },
-      { name: "Dr Ng Wei Liang" },
-      { name: "Dr Jasmine Hun" },
-      { name: "Dr Loo Chien Win" },
-      { name: "Dr Rachel Chan Choon Keow" }
-    ];
-  }
+      // Default "Select a doctor" option
+      var defaultOption = document.createElement("option");
+      defaultOption.text = "Select a doctor";
+      defaultOption.disabled = true;
+      defaultOption.selected = true;
+      doctorSelect.add(defaultOption);
 
-  // Clear previous options
-  doctorSelect.innerHTML = "";
+      // Populate the doctor dropdown
+      doctors.forEach(function (doctor) {
+        var option = document.createElement("option");
+        option.text = doctor.name;
+        doctorSelect.add(option);
+      });
+    }
 
-  // Default "Select a doctor" option
-  var defaultOption = document.createElement("option");
-  defaultOption.text = "Select a doctor";
-  defaultOption.disabled = true;
-  defaultOption.selected = true;
-  doctorSelect.add(defaultOption);
+    function filterDoctorsByBranch() {
+      var branchSelect = document.getElementById("branch").value;
 
-  // Populate the doctor dropdown
-  doctors.forEach(function (doctor) {
-    var option = document.createElement("option");
-    option.text = doctor.name;
-    doctorSelect.add(option);
-  });
-}
+      // Filter doctors based on branch selection
+      var filteredDoctors;
+      if (branchSelect === "Pulau Tikus") {
+        filteredDoctors = [
+          { name: "Dr Brenda Sim" },
+          { name: "Dr Kenneth Wong" },
+          { name: "Dr Gerviene Choo" },
+          { name: "Dr Vivian Tan" },
+          { name: "Dr Charlotte Hing" },
+          { name: "Dr Ng Wei Liang" },
+          { name: "Dr Jasmine Hun" }
+        ];
+      } else if (branchSelect === "Summerton") {
+        filteredDoctors = [
+          { name: "Dr Brenda Sim" },
+          { name: "Dr Kenneth Wong" },
+          { name: "Dr Loo Chien Win" },
+          { name: "Dr Rachel Chan Choon Keow" },
+          { name: "Dr Vivian Tan" },
+          { name: "Dr Ng Wei Liang" }
+        ];
+      } else {
+        // If no branch or "Select a branch", show all doctors
+        filteredDoctors = null;
+      }
 
-function filterDoctorsByBranch() {
-  var branchSelect = document.getElementById("branch").value;
-  
-  // Filter doctors based on branch selection
-  var filteredDoctors;
-  if (branchSelect === "Pulau Tikus") {
-    filteredDoctors = [
-      { name: "Dr Brenda Sim" },
-      { name: "Dr Kenneth Wong" },
-      { name: "Dr Gerviene Choo" },
-      { name: "Dr Vivian Tan" },
-      { name: "Dr Charlotte Hing" },
-      { name: "Dr Ng Wei Liang" },
-      { name: "Dr Jasmine Hun" }
-    ];
-  } else if (branchSelect === "Summerton") {
-    filteredDoctors = [
-      { name: "Dr Brenda Sim" },
-      { name: "Dr Kenneth Wong" },
-      { name: "Dr Loo Chien Win" },
-      { name: "Dr Rachel Chan Choon Keow" },
-      { name: "Dr Vivian Tan" },
-      { name: "Dr Ng Wei Liang" }
-    ];
-  } else {
-    // If no branch or "Select a branch", show all doctors
-    filteredDoctors = null;
-  }
-  
-  populateDoctors(filteredDoctors);
-}
-  
-  $(function () {
+      populateDoctors(filteredDoctors);
+    }
+
+    $(function () {
       $("#navbar").load("navbar.html");
       $("#side-nav").load("side-nav.html");
     });
-</script>
+  </script>
 </body>
+
 </html>
