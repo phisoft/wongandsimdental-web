@@ -3477,7 +3477,11 @@ p9 {
 }
 
 .popup-buttons button {
-  background-color: #12bebb8a;
+  background: linear-gradient(to right, 
+    #12bebb 0%, 
+    #0f9c98 50%, 
+    #12bebb 100%
+  );
   color: white;
   border: none;
   padding: 10px 20px;
@@ -3485,10 +3489,15 @@ p9 {
   font-size: 16px;
   border-radius: 20px;
   width: 200px; 
+  transition: all 0.3s ease;
 }
 
 .popup-buttons button:hover {
-  background-color: #0f9c98;
+  background: linear-gradient(to right, 
+    #1fd2cd 0%, 
+    #12bebb 50%, 
+    #1fd2cd 100%
+  );
 }
 
 .popup-image-wrapper {
