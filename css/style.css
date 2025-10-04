@@ -3409,7 +3409,7 @@ p9 {
 }
 
 .popup {
-  background-color: white;
+  background-color: #dbdbdb;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -3419,29 +3419,25 @@ p9 {
   transition: opacity 0.5s ease, transform 0.5s ease;
   width: 800px;
   height: 500px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .popup-image {
-  width: 150px;
-  height: 150px;
   background-color: #dbdbdb;
-  margin-bottom: 20px;
 }
 
 .popup-image img {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 20px;
+  width: 185px;
+  box-shadow: 0 4px 12px rgba(10, 5, 1, 0.3);
+  border-radius: 22px;
 }
 
 .popup-content {
-  margin: 50px;
+  margin-right: 120px;
 }
 
-.popup-content h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.popup-content h3 {
+  font-weight: bold;
 }
 
 .popup-content p {
@@ -3467,6 +3463,7 @@ p9 {
 
 .close-btn {
   background-color: #b0a99c;
+  font-weight: bold;
 }
 .close-btn:hover {
   background-color: #c1b7aa;
@@ -3486,7 +3483,7 @@ p9 {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 4px;
+  border-radius: 20px;
   width: 200px; 
 }
 
@@ -3505,6 +3502,10 @@ p9 {
   border-bottom-left-radius: 8px;
 }
 
+.main-btn {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .popup {
     flex-direction: column;
@@ -3513,10 +3514,16 @@ p9 {
   }
 
   .popup-image {
-    width: 150px;
     height: 150px;
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+
+  .popup-image img {
+    width: 100px;
+    box-shadow: 0 4px 12px rgba(10, 5, 1, 0.3);
+    border-radius: 22px;
+    text-align: center;
   }
 
   .popup-image-wrapper {
@@ -3526,6 +3533,7 @@ p9 {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    margin-bottom: 35px;
   }
 
   .popup-content {
