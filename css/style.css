@@ -3410,7 +3410,7 @@ p9 {
 
 .popup {
   background-color: #dbdbdb;
-  border-radius: 8px;
+  border-radius: 46px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -3498,8 +3498,8 @@ p9 {
   justify-content: center;
   align-items: center;
   height: 100%;    
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-top-left-radius: 46px;
+  border-bottom-left-radius: 46px;
 }
 
 .main-btn {
