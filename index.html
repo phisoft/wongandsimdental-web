@@ -447,6 +447,28 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/observers.js"></script>
+<!-- Popup Overlay -->
+<div class="popup-overlay" id="popup">
+  <div class="popup">
+    <div class="popup-image-wrapper">
+      <div class="popup-image">
+        <img src="images/mockup/wongandsim-mockup-1.png" alt="wongandsim-instagram" />
+      </div>
+    </div>
+    <div class="popup-content">
+      <p>Welcome to <br> Wong and Sim Dental</p>
+      <br>
+      <h3 class="text-center">Connect with us<br>@wongandsimdental</h3>
+      <br>
+      <div class="popup-buttons">
+        <a href="https://www.instagram.com/wongandsimdental/" target="_blank">
+          <button class="main-btn">Follow Us</button>
+        </a>
+        <button class="close-btn" onclick="closePopup()">Maybe Later</button>
+      </div>
+    </div>
+  </div>
+</div>
 <script>
   $(function () {
     $(".owl-carousel1").owlCarousel({
@@ -476,5 +498,36 @@
       $("#side-nav").load("side-nav.html");
     });
 </script>
+<script>
+  // Function to show the popup with smooth transition
+  function showPopup() {
+    const popup = document.getElementById("popup");
+    const popupElement = document.querySelector("#popup .popup");
+
+    popup.style.display = 'flex';
+    setTimeout(() => {
+      popup.style.opacity = '1';
+      popupElement.style.opacity = '1';
+      popupElement.style.transform = 'translateY(0)';
+    }, 20);
+  }
+
+  function closePopup() {
+    const popup = document.getElementById("popup");
+    const popupElement = document.querySelector("#popup .popup");
+
+    popupElement.style.opacity = '0';
+    popupElement.style.transform = 'translateY(-20px)';
+    
+    setTimeout(() => {
+      popup.style.opacity = '0';
+      popup.style.display = 'none';
+    }, 500);
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(showPopup, 1500);
+  });
+</script> 
 </body>
 </html>
